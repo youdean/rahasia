@@ -1,0 +1,15 @@
+{
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch Program",
+            "program": "${workspaceFolder}/indexBanca.js",
+            "skipFiles": [
+                "<node_internals>/**"
+            ]
+        }
+        
+        
+    ]
+}

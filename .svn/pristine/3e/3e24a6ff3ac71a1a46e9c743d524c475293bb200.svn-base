@@ -1,0 +1,297 @@
+{
+  "currCd": "IDR",
+  "channelCode": "SCB",
+  "productCdCat": "UL",
+  "adminFee": "0",
+  "prodCd": "U2V",
+  "age": 30,
+  "custAgeDay": 10440,
+  "custAgeMonth": 348,
+  "gender": "M",
+  "smokerStatus": "S",
+  "clazz": "1",
+  "custIncome": "Q",
+  "customerList": [
+    {
+      "Dob": "14/12/1990",
+      "mobile": "12321321321",
+      "customerId": "PH15766596348722700841117",
+      "MaritalStatus": "S",
+      "pekerjaanCode": "TRAD",
+      "codeTelp": "RI",
+      "age": 29,
+      "anb": 30,
+      "custAge": 29,
+      "custAgeDay": 10440,
+      "custAgeMonth": 348,
+      "name": "ph",
+      "sex": "M",
+      "smokeStatus": "S",
+      "clazz": "1",
+      "Departement": "",
+      "isExisting": false,
+      "Business": "",
+      "loadList": []
+    },
+    {
+      "Dob": "14/12/1990",
+      "mobile": "12321321321",
+      "customerId": "PH15766596348722700841117",
+      "MaritalStatus": "S",
+      "pekerjaanCode": "TRAD",
+      "codeTelp": "RI",
+      "age": 29,
+      "anb": 30,
+      "custAge": 29,
+      "custAgeDay": 10440,
+      "custAgeMonth": 348,
+      "name": "ph",
+      "sex": "M",
+      "smokeStatus": "S",
+      "clazz": "1",
+      "Departement": "",
+      "isExisting": false,
+      "Business": "",
+      "loadList": []
+    }
+  ],
+  "campaignType": "",
+  "AMOUNTSAR_DB_CLIENT": 0,
+  "AMOUNTSAR_ADDAD_CLIENT": 0,
+  "manfaatListFromNonSales": [],
+  "manfaat": {
+    "premiUnapplied": 0,
+    "minimumUangPertanggungan": 0,
+    "maksimumUangPertanggungan": 0,
+    "premi": "25000000",
+    "totalPremi": 25000000,
+    "rencanaPembayaran": "20",
+    "alternatifRencanaPembayaran": 2,
+    "halamanRingkasanTahun1": 65,
+    "halamanRingkasanTahun2": 75,
+    "halamanRingkasanTahun3": 85
+  },
+  "manfaatList": [
+    {
+      "code": "C1L1",
+      "seq": "4",
+      "name": "PRUcrisis cover benefit 34",
+      "disabled": false,
+      "coverageType": "rider",
+      "type": "COVERAGE",
+      "lifeAssureCd": "01",
+      "custList": [
+        {
+          "customerId": "PH15766596348722700841117",
+          "name": "ph",
+          "anb": 30,
+          "key": 2,
+          "loadList": [],
+          "itemInput": [
+            {
+              "code": "INPUTSA",
+              "description": "Input Sum Assured",
+              "type": "input",
+              "value": "0",
+              "inputValue": "500000000",
+              "key": "PDSA",
+              "coi": 0,
+              "annualPremi": 0
+            },
+            {
+              "code": "TERMOPTION",
+              "description": "Masa Pertanggungan(Sampai Usia)",
+              "type": "option",
+              "value": "55|65|70|75|80|85",
+              "inputValue": "55",
+              "key": "PDTERM"
+            }
+          ],
+          "coi": 0,
+          "annualPremi": 0
+        }
+      ]
+    },
+    {
+      "code": "U2V1",
+      "seq": "1",
+      "name": "VERSAlink maxima account",
+      "disabled": true,
+      "coverageType": "main",
+      "type": "COVERAGE",
+      "lifeAssureCd": "01",
+      "custList": [
+        {
+          "customerId": "PH15766596348722700841117",
+          "name": "ph",
+          "anb": 30,
+          "key": 2,
+          "loadList": [],
+          "itemInput": [
+            {
+              "code": "INPUTSA",
+              "description": "Input Sum Assured",
+              "type": "input",
+              "value": "0",
+              "inputValue": "600000000",
+              "key": "PDSA",
+              "coi": 0,
+              "annualPremi": 0
+            },
+            {
+              "code": "TERMOPTION",
+              "description": "Masa Pertanggungan(Sampai Usia)",
+              "type": "option",
+              "value": "",
+              "key": "PDTERM"
+            }
+          ],
+          "coi": 0,
+          "annualPremi": 0
+        }
+      ]
+    },
+    {
+      "code": "U2C3",
+      "seq": "2",
+      "name": "PRUsaver",
+      "disabled": false,
+      "coverageType": "topup",
+      "type": "COVERAGE",
+      "lifeAssureCd": "01",
+      "custList": [
+        {
+          "customerId": "PH15766596348722700841117",
+          "name": "ph",
+          "anb": 30,
+          "key": 2,
+          "loadList": [],
+          "itemInput": [
+            {
+              "code": "INPUTPREMI",
+              "description": "Input Premi",
+              "type": "input",
+              "value": "0",
+              "inputValue": 0,
+              "key": "PDPREMI",
+              "coi": 0,
+              "annualPremi": 0
+            },
+            {
+              "code": "TERMOPTION",
+              "description": "Masa Pertanggungan(Sampai Usia)",
+              "type": "option",
+              "value": "",
+              "key": "PDTERM"
+            }
+          ],
+          "coi": 0,
+          "annualPremi": 0
+        }
+      ]
+    },
+    {
+      "code": "T1JR",
+      "seq": "6",
+      "name": "PRUlink term",
+      "disabled": false,
+      "coverageType": "rider",
+      "type": "COVERAGE",
+      "lifeAssureCd": "01",
+      "custList": [
+        {
+          "customerId": "PH15766596348722700841117",
+          "name": "ph",
+          "anb": 30,
+          "key": 2,
+          "loadList": [],
+          "itemInput": [
+            {
+              "code": "INPUTSA",
+              "description": "Input Sum Assured",
+              "type": "input",
+              "value": "0",
+              "inputValue": "1000000000",
+              "key": "PDSA",
+              "coi": 0,
+              "annualPremi": 0
+            },
+            {
+              "code": "TERMOPTION",
+              "description": "Masa Pertanggungan(Sampai Usia)",
+              "type": "option",
+              "value": "55|65|70|75|80|85|99",
+              "inputValue": "55",
+              "key": "PDTERM"
+            }
+          ],
+          "coi": 0,
+          "annualPremi": 0
+        }
+      ]
+    },
+    {
+      "code": "P1G1",
+      "seq": "7",
+      "name": "PRUpersonal accident death & disablement",
+      "disabled": false,
+      "coverageType": "rider",
+      "type": "COVERAGE",
+      "lifeAssureCd": "01",
+      "custList": [
+        {
+          "customerId": "PH15766596348722700841117",
+          "name": "ph",
+          "anb": 30,
+          "key": 2,
+          "loadList": [],
+          "itemInput": [
+            {
+              "code": "INPUTSA",
+              "description": "Input Sum Assured",
+              "type": "input",
+              "value": "0",
+              "inputValue": "7000000000",
+              "key": "PDSA",
+              "coi": 0,
+              "annualPremi": 0
+            },
+            {
+              "code": "TERMOPTION",
+              "description": "Masa Pertanggungan(Sampai Usia)",
+              "type": "option",
+              "value": "55|60|65|70",
+              "inputValue": "55",
+              "key": "PDTERM"
+            }
+          ],
+          "coi": 0,
+          "annualPremi": 0
+        }
+      ]
+    }
+  ],
+  "paymentFrequency": "01",
+  "flagFreeAdmin": "0",
+  "flagSaIncrease": "0",
+  "rateCdList": [
+    "RTC1LRSCB",
+    "CHC1LRSCB",
+    "CHWITHDRAWAL_U2V1",
+    "CHU2V1",
+    "RTLIENR",
+    "RTMAXSA3",
+    "RTMINSA_01",
+    "CHSURRU2V",
+    "CHT1JRSCB",
+    "RTT1JRSCB",
+    "RTP1GRSCB",
+    "CHP1GRSCB"
+  ],
+  "mainCoverage": "U2V1",
+  "isPPH": false,
+  "topupList": [],
+  "withdrawalList": [],
+  "custSA": 600000000,
+  "custSaver": 0
+}

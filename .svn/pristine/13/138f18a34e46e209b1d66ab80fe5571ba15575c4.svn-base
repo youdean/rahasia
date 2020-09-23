@@ -1,0 +1,20 @@
+[
+  {
+    "coverageCd": "COVRGROUP_PADD",
+    "ruleCd": "GCOVR",
+    "ruleTypeCd": "MAXGCOVR",
+    "key": "PDSELECTEDML",
+    "keyType": "coverage",
+    "operator": ">",
+    "type": "Fix Value",
+    "value": "1",
+    "isCoverageGroup": true,
+    "sequence": 6,
+    "errorType": "BLOCKED",
+    "errorMessageInd": "PRUpersonal accident death & disablement tidak dapat diambil bersamaan dengan PRUpersonal accident death & disablement plus.",
+    "errorMessageEng": "PRUpersonal accident death & disablement cannot be taken with PRUpersonal accident death & disablement plus.",
+    "sumAssured": 6000000000,
+    "comparisson": true,
+    "ruleShowType": null
+  }
+]

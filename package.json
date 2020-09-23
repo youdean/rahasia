@@ -1,0 +1,26 @@
+{
+  "name": "math-expression",
+  "version": "1.0.0",
+  "description": "",
+  "main": "indexBanca.js",
+  "type": "module",
+  "dependencies": {
+    "express": "^4.17.1",
+    "js-yaml": "^3.14.0",
+    "require": "^2.4.20",
+    "swagger-jsdoc": "^4.0.0",
+    "swagger-model-validator": "^2.2.8",
+    "swagger-ui-express": "^4.1.4",
+    "ui": "^0.2.4",
+    "cookie-parser": "^1.4.5",
+    "morgan": "~1.9.1"
+  },
+  "devDependencies": {
+    "standard": "^14.3.4"
+  },
+  "scripts": {
+    "test": "node indexBanca.js"
+  },
+  "author": "c96769",
+  "license": "ISC"
+}

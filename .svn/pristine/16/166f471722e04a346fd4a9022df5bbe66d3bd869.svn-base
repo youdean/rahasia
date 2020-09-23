@@ -1,0 +1,514 @@
+{
+  "currCd": "IDR",
+  "channelCode": "SCB",
+  "productCdCat": "UL",
+  "adminFee": "FRMLADMINFEE02",
+  "prodCd": "U2V",
+  "age": 35,
+  "custAgeDay": 537620636575,
+  "custAgeMonth": 204,
+  "gender": "M",
+  "smokerStatus": "NS",
+  "clazz": "1",
+  "customerList": [
+    {
+      "Dob": "22/11/1993",
+      "mobile": "",
+      "customerId": "LA15647280273171300841117",
+      "pekerjaanCode": "UL",
+      "age": 35,
+      "anb": 35,
+      "custAge": 35,
+      "custAgeDay": 537620636575,
+      "custAgeMonth": 204,
+      "name": "Tu",
+      "sex": "M",
+      "smokeStatus": "NS",
+      "clazz": "1",
+      "Departement": "",
+      "Position": "",
+      "isExisting": false,
+      "Business": "",
+      "loadList": []
+    }	
+  ],
+  "manfaat": {
+    "premiUnapplied": 0,
+    "minimumUangPertanggungan": 0,
+    "maksimumUangPertanggungan": 0,
+    "premi": 50000000,
+    "totalPremi": 50000000,
+    "rencanaPembayaran": "10",
+    "alternatifRencanaPembayaran": 99,
+    "halamanRingkasanTahun1": 65,
+    "halamanRingkasanTahun2": 75,
+    "halamanRingkasanTahun3": 85
+  },
+  "campaignType": "",
+  "AMOUNTSAR_DB_CLIENT": 0,
+  "AMOUNTSAR_ADDAD_CLIENT": 0,
+  "manfaatListFromNonSales": [],
+  "manfaatList": [
+    {
+      "code": "U2V1",
+      "seq": "1",
+      "name": "VersaLink Maxima Account",
+      "disabled": true,
+      "coverageType": "main",
+      "type": "COVERAGE",
+      "lifeAssureCd": "01",
+      "custList": [
+        {
+          "customerId": "LA15647280273171300841117",
+          "name": "Tu",
+          "anb": 35,
+          "key": 2,
+          "loadList": [],
+          "itemInput": [
+            {
+              "code": "U2V1",
+              "description": "Input Sum Assured",
+              "type": "input",
+              "value": "0",
+              "inputValue": "200000000",
+              "key": "PDSA",
+              "coi": 0,
+              "annualPremi": 0,
+              "tmpTerm": 99,
+              "hsplan": "0"
+            },
+            {
+              "code": "U2V1",
+              "description": "Masa Pertanggungan(Sampai Usia)",
+              "type": "option",
+              "value": "55|60|65|70|75|80|85|99",
+              "inputValue": "99",
+              "key": "PDTERM",
+              "tmpTerm": 99,
+              "hsplan": "0"
+            }
+          ],
+          "coi": "90000.00",
+          "annualPremi": "5555556.00",
+          "code": "U2V1",
+          "biayaBulanan": 90000
+        }
+		],
+      "approvalTypeConversion": "",
+      "cumulativeCalculateUsingNewRate": true,
+      "cumulativeRemainingSA": "3190978000"
+    },
+		{
+      "code": "W1WR",
+      "seq": "1",
+      "name": "PRUwaiver 33",
+      "disabled": true,
+      "coverageType": "main",
+      "type": "COVERAGE",
+      "lifeAssureCd": "01",
+      "custList": [
+        {
+          "customerId": "LA15647280273171300841117",
+          "name": "Tu",
+          "anb": 35,
+          "key": 2,
+          "loadList": [
+		  {
+              "code": "C1",
+              "selectedCode": "C10",
+              "selectedValue": "250",
+              "divider": "100"
+            }
+		  ],
+          "itemInput": [
+            {
+		"code": "W1WR",
+		"description": "Input Sum Assured",
+		"type": "option",
+		"value": "Y|N",
+		"inputValue": "Y",
+		"key": "PDPLAN",
+		"coi": 0,
+		"annualPremi": 0,
+		"hsplan": 0
+		},
+		{
+		"code": "W1WR",
+		"description": "Masa Pertanggungan(Sampai Usia)",
+		"type": "option",
+		"value": "55|65|75|85",
+		"inputValue": "55",
+		"key": "PDTERM",
+		"hsplan": "0"
+		}
+          ],
+          "coi": "90000.00",
+          "annualPremi": "5555556.00",
+          "code": "W1WR",
+          "biayaBulanan": 90000
+        }
+		],
+      "approvalTypeConversion": "",
+      "cumulativeCalculateUsingNewRate": true,
+      "cumulativeRemainingSA": "830000000"
+    }
+  ],
+  "paymentFrequency": "01",
+  "flagFreeAdmin": "1",
+  "flagSaIncrease": "1",
+  "topupList": [],
+  "withdrawalList": [
+    {
+      "year": 7,
+      "amount": 80000000
+    },
+	{
+      "year": 11,
+      "amount": 80000000
+    },
+	{
+      "year": 17,
+      "amount": 80000000
+    }
+  ],
+  "mainCoverage": "U2V1",
+  "custSA": 200000000,
+  "custSaver": 0,
+  "year": 1,
+  "process": "NB",
+  "issuedDate": "2019-08-15T04:13:03.541Z",
+  "ManfaatListCVCalc": [
+    {
+      "code": "U2V1",
+      "name": "VersaLink Maxima Account",
+      "disabled": true,
+      "coverageType": "main",
+      "type": "COVERAGE",
+      "lifeAssureCd": "01",
+      "tertanggungName": "Tu",
+      "tertanggungAge": 35,
+      "tertanggungKey": 2,
+      "tertanggungCustomerId": "LA15647280273171300841117",
+      "itemInput": [
+        {
+          "code": "U2V1",
+          "description": "Input Sum Assured",
+          "type": "input",
+          "value": "0",
+          "inputValue": "200000000",
+          "key": "PDSA",
+          "coi": 0,
+          "annualPremi": 0,
+          "tmpTerm": 99,
+          "hsplan": "0"
+        },
+        {
+          "code": "U2V1",
+          "description": "Masa Pertanggungan(Sampai Usia)",
+          "type": "option",
+          "value": "55|60|65|70|75|80|85|99",
+          "inputValue": "99",
+          "key": "PDTERM",
+          "tmpTerm": 99,
+          "hsplan": "0"
+        }
+      ],
+      "loadMap": {},
+      "approvalTypeConversion": "",
+      "age": 35,
+      "isPPH": "D"
+    },
+    {
+      "code": "W1WR",
+      "name": "PRUwaiver 33",
+      "disabled": false,
+      "coverageType": "rider",
+      "type": "COVERAGE",
+      "lifeAssureCd": "01",
+      "tertanggungName": "TU",
+      "tertanggungAge": 35,
+      "tertanggungKey": 2,
+      "tertanggungCustomerId": "PH15631780953367700841117",
+      "itemInput": [
+        {
+		"code": "W1WR",
+		"description": "Input Sum Assured",
+		"type": "option",
+		"value": "Y|N",
+		"inputValue": "Y",
+		"key": "PDPLAN",
+		"coi": 0,
+		"annualPremi": 0,
+		"hsplan": 0
+		},
+		{
+		"code": "W1WR",
+		"description": "Masa Pertanggungan(Sampai Usia)",
+		"type": "option",
+		"value": "55|65|75|85",
+		"inputValue": "55",
+		"key": "PDTERM",
+		"hsplan": "0"
+		}
+      ],
+      "loadMap": {},
+      "approvalTypeConversion": "",
+      "age": 35,
+      "isPPH": "D"
+    }
+  ],
+  "ManfaatListCovCalc": [
+    {
+      "code": "U2V1",
+      "name": "VersaLink Maxima Account",
+      "disabled": true,
+      "coverageType": "main",
+      "type": "COVERAGE",
+      "lifeAssureCd": "01",
+      "tertanggungName": "Tu",
+      "tertanggungAge": 35,
+      "tertanggungKey": 2,
+      "tertanggungCustomerId": "LA15647280273171300841117",
+      "itemInput": [
+        {
+          "code": "U2V1",
+          "description": "Input Sum Assured",
+          "type": "input",
+          "value": "0",
+          "inputValue": "200000000",
+          "key": "PDSA",
+          "coi": 0,
+          "annualPremi": 0,
+          "tmpTerm": 99,
+          "hsplan": "0"
+        },
+        {
+          "code": "U2V1",
+          "description": "Masa Pertanggungan(Sampai Usia)",
+          "type": "option",
+          "value": "55|60|65|70|75|80|85|99",
+          "inputValue": "99",
+          "key": "PDTERM",
+          "tmpTerm": 99,
+          "hsplan": "0"
+        }
+      ],
+      "loadMap": {},
+      "approvalTypeConversion": "",
+      "age": 22,
+      "isPPH": "D"
+    }
+  ],
+  "PREMIUMINCREASEBEFOREROUNDINGCLIENT": 0,
+  "PREMIUMINCREASEBEFOREROUNDINGALT": 0,
+  "TOTALPREMIUMWITHACCPREMIUMLBDBALT": 8850000,
+  "TOTALPREMIUMWITHACCPREMIUMLBDBCLIENT": 8850000,
+  "OF_CUSTAGEPOLICY": 25,
+  "ALLOCATEDSAVERCLIENT": 2992500,
+  "ALLOCATEDSAVERALT": 2992500,
+  "TOTALSAWITHACCSALINKTERMCLIENT": 300000000,
+  "TOTALSAWITHACCSALINKTERMALT": 500000000,
+  "TOTALSAWITHACCSAALT": 830000000,
+  "TOTALSAWITHACCSACLIENT": 830000000,
+  "TOTALPREMIUMWITHACCPREMIUM": 8850000,
+  "TOTALPREMIUMWITHACCPREMIUMLBDB_BACKUP(NOT USED)ALT": 8850000,
+  "TOTALPREMIUMWITHACCPREMIUMLBDB_BACKUP(NOT USED)CLIENT": 8850000,
+  "DIFFLVPREMI": 0,
+  "fundList": [
+		{
+		"code": "PRVE",
+		"name": "PRUlink Rupiah Value Discovery Equity Fund",
+		"checked": true,
+		"taken": true,
+		"flagSearch": true,
+		"itemInput": [
+		{
+		"code": "FULLALLOCATION",
+		"description": "Allocation Percentage",
+		"type": "option",
+		"value": "0|5|10|15|20|26|30|35|40|45|50|55|60|65|70|75|80|85|90|95|100",
+		"key": "PDALLO",
+		"inputValue": 10,
+		"inputValueTopup": 10
+		}
+		],
+		"type": "FUND"
+		}
+		,
+		{
+		"code": "PRMP",
+		"name": "PRUlink Rupiah Managed Fund Plus",
+		"checked": true,
+		"taken": true,
+		"flagSearch": true,
+		"itemInput": [
+		{
+		"code": "FULLALLOCATION",
+		"description": "Allocation Percentage",
+		"type": "option",
+		"value": "0|5|10|15|20|26|30|35|40|45|50|55|60|65|70|75|80|85|90|95|100",
+		"key": "PDALLO",
+		"inputValue": 10,
+		"inputValueTopup": 10
+		}
+		],
+		"type": "FUND"
+		}
+		,
+		{
+		"code": "PRGV",
+		"name": " PRUlink Rupiah Global Low Volatility Equity Fund ",
+		"checked": true,
+		"taken": true,
+		"flagSearch": true,
+		"itemInput": [
+		{
+		"code": "FULLALLOCATION",
+		"description": "Allocation Percentage",
+		"type": "option",
+		"value": "0|5|10|15|20|26|30|35|40|45|50|55|60|65|70|75|80|85|90|95|100",
+		"key": "PDALLO",
+		"inputValue": 10,
+		"inputValueTopup": 10
+		}
+		],
+		"type": "FUND"
+		}
+		,
+		{
+		"code": "PRIE",
+		"name": "PRUlink Rupiah Infrastructure & Consumer Equity Fund",
+		"checked": true,
+		"taken": true,
+		"flagSearch": true,
+		"itemInput": [
+		{
+		"code": "FULLALLOCATION",
+		"description": "Allocation Percentage",
+		"type": "option",
+		"value": "0|5|10|15|20|26|30|35|40|45|50|55|60|65|70|75|80|85|90|95|100",
+		"key": "PDALLO",
+		"inputValue": 10,
+		"inputValueTopup": 10
+		}
+		],
+		"type": "FUND"
+		},
+	{
+      "code": "PRMF",
+      "name": "PRUlink Rupiah Managed Fund",
+      "checked": true,
+      "taken": true,
+      "flagSearch": true,
+      "itemInput": [
+        {
+          "code": "FULLALLOCATION",
+          "description": "Allocation Percentage",
+          "type": "option",
+          "value": "0|5|10|15|20|25|30|35|40|45|50|55|60|65|70|75|80|85|90|95|100",
+          "key": "PDALLO",
+          "inputValue": 10,
+          "inputValueTopup": 10
+        }
+      ],
+      "type": "FUND"
+    },
+	{
+      "code": "PRFF",
+      "name": "PRUlink Rupiah Fixed Income Fund",
+      "checked": true,
+      "taken": true,
+      "flagSearch": true,
+      "itemInput": [
+        {
+          "code": "FULLALLOCATION",
+          "description": "Allocation Percentage",
+          "type": "option",
+          "value": "0|5|10|15|20|25|30|35|40|45|50|55|60|65|70|75|80|85|90|95|100",
+          "key": "PDALLO",
+          "inputValue": 10,
+          "inputValueTopup": 10
+        }
+      ],
+      "type": "FUND"
+    },
+	{
+      "code": "PRCF",
+      "name": "PRUlink Rupiah Cash Fund",
+      "checked": true,
+      "taken": true,
+      "flagSearch": true,
+      "itemInput": [
+        {
+          "code": "FULLALLOCATION",
+          "description": "Allocation Percentage",
+          "type": "option",
+          "value": "0|5|10|15|20|25|30|35|40|45|50|55|60|65|70|75|80|85|90|95|100",
+          "key": "PDALLO",
+          "inputValue": 10,
+          "inputValueTopup": 10
+        }
+      ],
+      "type": "FUND"
+    },
+	{
+      "code": "PRGC",
+      "name": "PRUlink Rupiah Indonesia Greater China Equity Fund",
+      "checked": true,
+      "taken": true,
+      "flagSearch": true,
+      "itemInput": [
+        {
+          "code": "FULLALLOCATION",
+          "description": "Allocation Percentage",
+          "type": "option",
+          "value": "0|5|10|15|20|25|30|35|40|45|50|55|60|65|70|75|80|85|90|95|100",
+          "key": "PDALLO",
+          "inputValue": 10,
+          "inputValueTopup": 10
+        }
+      ],
+      "type": "FUND"
+    },
+	{
+      "code": "PREP",
+      "name": "PRUlink Rupiah Equity Fund Plus",
+      "checked": true,
+      "taken": true,
+      "flagSearch": true,
+      "itemInput": [
+        {
+          "code": "FULLALLOCATION",
+          "description": "Allocation Percentage",
+          "type": "option",
+          "value": "0|5|10|15|20|25|30|35|40|45|50|55|60|65|70|75|80|85|90|95|100",
+          "key": "PDALLO",
+          "inputValue": 10,
+          "inputValueTopup": 10
+        }
+      ],
+      "type": "FUND"
+    },
+	{
+      "code": "PRGM",
+      "name": "PRUlink Rupiah Global Emerging Markets Equity Fund",
+      "checked": true,
+      "taken": true,
+      "flagSearch": true,
+      "itemInput": [
+        {
+          "code": "FULLALLOCATION",
+          "description": "Allocation Percentage",
+          "type": "option",
+          "value": "0|5|10|15|20|25|30|35|40|45|50|55|60|65|70|75|80|85|90|95|100",
+          "key": "PDALLO",
+          "inputValue": 10,
+          "inputValueTopup": 10
+        }
+      ],
+      "type": "FUND"
+    }
+  ],
+  "rencanaPembayaran": "10",
+  "alternatifRencanaPembayaran": 99
+}

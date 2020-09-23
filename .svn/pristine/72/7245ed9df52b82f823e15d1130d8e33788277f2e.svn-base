@@ -1,0 +1,257 @@
+{
+  "currCd": "IDR",
+  "channelCode": "SCB",
+  "productCdCat": "UL",
+  "adminFee": "0",
+  "prodCd": "U2V",
+  "age": 35,
+  "custAgeDay": 12240,
+  "custAgeMonth": 408,
+  "gender": "M",
+  "smokerStatus": "NS",
+  "clazz": "1",
+  "custIncome": "D",
+  "customerList": [
+    {
+      "Dob": "09/12/1985",
+      "mobile": "3232323232",
+      "customerId": "PH15760511408198800841117",
+      "MaritalStatus": "M",
+      "pekerjaanCode": "TRAD",
+      "codeTelp": "RI",
+      "age": 34,
+      "anb": 35,
+      "custAge": 34,
+      "custAgeDay": 12240,
+      "custAgeMonth": 408,
+      "name": "cek",
+      "sex": "M",
+      "smokeStatus": "NS",
+      "clazz": "1",
+      "Departement": "",
+      "isExisting": false,
+      "Business": "",
+      "loadList": [],
+      "income": "D"
+    },
+    {
+      "Dob": "09/12/1985",
+      "mobile": "3232323232",
+      "customerId": "PH15760511408198800841117",
+      "MaritalStatus": "M",
+      "pekerjaanCode": "TRAD",
+      "codeTelp": "RI",
+      "age": 34,
+      "anb": 35,
+      "custAge": 34,
+      "custAgeDay": 12240,
+      "custAgeMonth": 408,
+      "name": "cek",
+      "sex": "M",
+      "smokeStatus": "NS",
+      "clazz": "1",
+      "Departement": "",
+      "isExisting": false,
+      "Business": "",
+      "loadList": [],
+      "income": "D"
+    }
+  ],
+  "campaignType": "",
+  "AMOUNTSAR_DB_CLIENT": 0,
+  "AMOUNTSAR_ADDAD_CLIENT": 0,
+  "manfaatListFromNonSales": [],
+  "manfaat": {
+    "premiUnapplied": 0,
+    "minimumUangPertanggungan": 0,
+    "maksimumUangPertanggungan": 0,
+    "premi": "30000000",
+    "totalPremi": 30000000,
+    "rencanaPembayaran": "20",
+    "alternatifRencanaPembayaran": 2,
+    "halamanRingkasanTahun1": 65,
+    "halamanRingkasanTahun2": 75,
+    "halamanRingkasanTahun3": 85
+  },
+  "manfaatList": [
+    {
+      "code": "U2V1",
+      "seq": "1",
+      "name": "VERSAlink maxima account",
+      "disabled": true,
+      "coverageType": "main",
+      "type": "COVERAGE",
+      "lifeAssureCd": "01",
+      "custList": [
+        {
+          "customerId": "PH15760511408198800841117",
+          "name": "cek",
+          "anb": 35,
+          "key": 2,
+          "loadList": [],
+          "itemInput": [
+            {
+              "code": "INPUTSA",
+              "description": "Input Sum Assured",
+              "type": "input",
+              "value": "0",
+              "inputValue": "500000000",
+              "key": "PDSA",
+              "coi": 0,
+              "annualPremi": 0
+            },
+            {
+              "code": "TERMOPTION",
+              "description": "Masa Pertanggungan(Sampai Usia)",
+              "type": "option",
+              "value": "",
+              "key": "PDTERM"
+            }
+          ],
+          "coi": 0,
+          "annualPremi": 0
+        }
+      ]
+    },
+    {
+      "code": "U2C3",
+      "seq": "2",
+      "name": "PRUsaver",
+      "disabled": false,
+      "coverageType": "topup",
+      "type": "COVERAGE",
+      "lifeAssureCd": "01",
+      "custList": [
+        {
+          "customerId": "PH15760511408198800841117",
+          "name": "cek",
+          "anb": 35,
+          "key": 2,
+          "loadList": [],
+          "itemInput": [
+            {
+              "code": "INPUTPREMI",
+              "description": "Input Premi",
+              "type": "input",
+              "value": "0",
+              "inputValue": 0,
+              "key": "PDPREMI",
+              "coi": 0,
+              "annualPremi": 0
+            },
+            {
+              "code": "TERMOPTION",
+              "description": "Masa Pertanggungan(Sampai Usia)",
+              "type": "option",
+              "value": "",
+              "key": "PDTERM"
+            }
+          ],
+          "coi": 0,
+          "annualPremi": 0
+        }
+      ]
+    },
+    {
+      "code": "H2BR",
+      "seq": "9",
+      "name": "PRUmed",
+      "disabled": false,
+      "coverageType": "rider",
+      "type": "COVERAGE",
+      "lifeAssureCd": "01",
+      "custList": [
+        {
+          "customerId": "PH15760511408198800841117",
+          "name": "cek",
+          "anb": 35,
+          "key": 2,
+          "loadList": [],
+          "itemInput": [
+            {
+              "code": "INPUTUNIT",
+              "description": "Input Unit",
+              "type": "input",
+              "value": "0",
+              "inputValue": "5",
+              "key": "PDUNIT",
+              "coi": 0,
+              "annualPremi": 0
+            },
+            {
+              "code": "TERMOPTION",
+              "description": "Masa Pertanggungan(Sampai Usia)",
+              "type": "option",
+              "value": "55|65",
+              "inputValue": "65",
+              "key": "PDTERM"
+            }
+          ],
+          "coi": 0,
+          "annualPremi": 0
+        }
+      ]
+    },
+    {
+      "code": "H2TR",
+      "seq": "10",
+      "name": "PRUhospital & surgical cover",
+      "disabled": false,
+      "coverageType": "rider",
+      "type": "COVERAGE",
+      "lifeAssureCd": "01",
+      "custList": [
+        {
+          "customerId": "PH15760511408198800841117",
+          "name": "cek",
+          "anb": 35,
+          "key": 2,
+          "loadList": [],
+          "itemInput": [
+            {
+              "code": "PLANOPTION4",
+              "description": "Choose hospital plan",
+              "type": "option",
+              "value": "A+#A|B+#B|C+#C|D+#D|E+#E|F+#F|G+#G|H+#H",
+              "inputValue": "A",
+              "key": "PDPLAN",
+              "coi": 0,
+              "annualPremi": 0
+            },
+            {
+              "code": "TERMOPTION",
+              "description": "Masa Pertanggungan(Sampai Usia)",
+              "type": "option",
+              "value": "55|65|75",
+              "inputValue": "75",
+              "key": "PDTERM"
+            }
+          ],
+          "coi": 0,
+          "annualPremi": 0
+        }
+      ]
+    }
+  ],
+  "paymentFrequency": "01",
+  "flagFreeAdmin": "0",
+  "flagSaIncrease": "0",
+  "rateCdList": [
+    "CHWITHDRAWAL_U2V1",
+    "CHU2V1",
+    "RTLIENR",
+    "RTMAXSA3",
+    "RTMINSA_01",
+    "CHSURRU2V",
+    "RTH1BRSCB",
+    "CHH1BRSCB",
+    "CHH1TR",
+    "RTH1TR"
+  ],
+  "mainCoverage": "U2V1",
+  "isPPH": false,
+  "topupList": [],
+  "withdrawalList": [],
+  "custSA": 500000000,
+  "custSaver": 0
+}

@@ -1,0 +1,785 @@
+{
+  "currCd": "IDR",
+  "channelCode": "SCB",
+  "productCdCat": "UL",
+  "adminFee": "0",
+  "prodCd": "U2V",
+  "age": 35,
+  "custAgeDay": 12240,
+  "custAgeMonth": 408,
+  "gender": "M",
+  "smokerStatus": "NS",
+  "clazz": "1",
+  "custIncome": "H",
+  "customerList": [
+    {
+      "age": 34,
+      "clazz": "1",
+      "custAgeDay": 12240,
+      "custAge": 34,
+      "anb": 35,
+      "smokeStatus": "NS",
+      "MaritalStatus": "M",
+      "sex": "M",
+      "isExisting": false,
+      "Business": "",
+      "loadList": [],
+      "Departement": "",
+      "name": "Tc banyak rider",
+      "customerId": "PH15768259896455400841117",
+      "Dob": "01/01/1985",
+      "pekerjaanCode": "TRAD",
+      "mobile": "888888888",
+      "custAgeMonth": 408,
+      "codeTelp": "RI"
+    },
+    {
+      "age": 34,
+      "clazz": "1",
+      "custAgeDay": 12240,
+      "custAge": 34,
+      "anb": 35,
+      "smokeStatus": "NS",
+      "MaritalStatus": "M",
+      "sex": "M",
+      "isExisting": false,
+      "Business": "",
+      "loadList": [],
+      "Departement": "",
+      "name": "Tc banyak rider",
+      "customerId": "LA15768259896452700841117",
+      "Dob": "01/01/1985",
+      "pekerjaanCode": "TRAD",
+      "mobile": "888888888",
+      "custAgeMonth": 408,
+      "codeTelp": "RI",
+      "income": "H"
+    },
+    {
+      "age": 29,
+      "clazz": "1",
+      "custAgeDay": 10440,
+      "Departemen": "",
+      "custAge": 29,
+      "anb": 30,
+      "smokeStatus": "NS",
+      "MaritalStatus": "M",
+      "sex": "F",
+      "Business": "",
+      "loadList": [],
+      "name": "Istri",
+      "customerId": "LA15768264757841600841117",
+      "Dob": "01/01/1990",
+      "pekerjaanCode": "TRAD",
+      "mobile": "888888888",
+      "custAgeMonth": 348,
+      "codeTelp": "RI"
+    }
+  ],
+  "campaignType": "",
+  "AMOUNTSAR_DB_CLIENT": 0,
+  "AMOUNTSAR_ADDAD_CLIENT": 0,
+  "manfaatListFromNonSales": [],
+  "manfaat": {
+    "premiUnapplied": 0,
+    "minimumUangPertanggungan": 0,
+    "maksimumUangPertanggungan": 0,
+    "premi": "75000000",
+    "totalPremi": 76200000,
+    "rencanaPembayaran": "10",
+    "alternatifRencanaPembayaran": 2,
+    "halamanRingkasanTahun1": 65,
+    "halamanRingkasanTahun2": 75,
+    "halamanRingkasanTahun3": 85
+  },
+  "manfaatList": [
+    {
+      "code": "C1L1",
+      "seq": "4",
+      "name": "PRUcrisis cover benefit 34",
+      "disabled": false,
+      "coverageType": "rider",
+      "type": "COVERAGE",
+      "lifeAssureCd": "01",
+      "custList": [
+        {
+          "customerId": "LA15768259896452700841117",
+          "name": "Tc banyak rider",
+          "anb": 35,
+          "key": 2,
+          "loadList": [
+            {
+              "code": "A1",
+              "selectedCode": "A3",
+              "selectedValue": "150",
+              "divider": "100"
+            },
+            {
+              "code": "A2",
+              "selectedCode": "A23",
+              "selectedValue": "3",
+              "divider": "1000"
+            },
+            {
+              "code": "C1",
+              "selectedCode": "C3",
+              "selectedValue": "75",
+              "divider": "100"
+            },
+            {
+              "code": "H1",
+              "selectedCode": "H9",
+              "selectedValue": "45",
+              "divider": "100"
+            }
+          ],
+          "itemInput": [
+            {
+              "code": "INPUTSA",
+              "description": "Input Sum Assured",
+              "type": "input",
+              "value": "0",
+              "inputValue": "100000000",
+              "key": "PDSA",
+              "coi": 0,
+              "annualPremi": 0
+            },
+            {
+              "code": "TERMOPTION",
+              "description": "Masa Pertanggungan(Sampai Usia)",
+              "type": "option",
+              "value": "55|65|70|75|80|85",
+              "inputValue": "65",
+              "key": "PDTERM"
+            }
+          ],
+          "coi": 0,
+          "annualPremi": 0
+        }
+      ]
+    },
+    {
+      "code": "U2V1",
+      "seq": "1",
+      "name": "VERSAlink maxima account",
+      "disabled": true,
+      "coverageType": "main",
+      "type": "COVERAGE",
+      "lifeAssureCd": "01",
+      "custList": [
+        {
+          "customerId": "LA15768259896452700841117",
+          "name": "Tc banyak rider",
+          "anb": 35,
+          "key": 2,
+          "loadList": [
+            {
+              "code": "A1",
+              "selectedCode": "A3",
+              "selectedValue": "150",
+              "divider": "100"
+            },
+            {
+              "code": "A2",
+              "selectedCode": "A23",
+              "selectedValue": "3",
+              "divider": "1000"
+            },
+            {
+              "code": "C1",
+              "selectedCode": "C3",
+              "selectedValue": "75",
+              "divider": "100"
+            },
+            {
+              "code": "H1",
+              "selectedCode": "H9",
+              "selectedValue": "45",
+              "divider": "100"
+            }
+          ],
+          "itemInput": [
+            {
+              "code": "INPUTSA",
+              "description": "Input Sum Assured",
+              "type": "input",
+              "value": "0",
+              "inputValue": "500000000",
+              "key": "PDSA",
+              "coi": 0,
+              "annualPremi": 0
+            },
+            {
+              "code": "TERMOPTION",
+              "description": "Masa Pertanggungan(Sampai Usia)",
+              "type": "option",
+              "value": "",
+              "key": "PDTERM"
+            }
+          ],
+          "coi": 0,
+          "annualPremi": 0
+        }
+      ]
+    },
+    {
+      "code": "U2C3",
+      "seq": "2",
+      "name": "PRUsaver",
+      "disabled": false,
+      "coverageType": "topup",
+      "type": "COVERAGE",
+      "lifeAssureCd": "01",
+      "custList": [
+        {
+          "customerId": "LA15768259896452700841117",
+          "name": "Tc banyak rider",
+          "anb": 35,
+          "key": 2,
+          "loadList": [
+            {
+              "code": "A1",
+              "selectedCode": "A3",
+              "selectedValue": "150",
+              "divider": "100"
+            },
+            {
+              "code": "A2",
+              "selectedCode": "A23",
+              "selectedValue": "3",
+              "divider": "1000"
+            },
+            {
+              "code": "C1",
+              "selectedCode": "C3",
+              "selectedValue": "75",
+              "divider": "100"
+            },
+            {
+              "code": "H1",
+              "selectedCode": "H9",
+              "selectedValue": "45",
+              "divider": "100"
+            }
+          ],
+          "itemInput": [
+            {
+              "code": "INPUTPREMI",
+              "description": "Input Premi",
+              "type": "input",
+              "value": "0",
+              "inputValue": "1200000",
+              "key": "PDPREMI",
+              "coi": 0,
+              "annualPremi": 0
+            },
+            {
+              "code": "TERMOPTION",
+              "description": "Masa Pertanggungan(Sampai Usia)",
+              "type": "option",
+              "value": "",
+              "key": "PDTERM"
+            }
+          ],
+          "coi": 0,
+          "annualPremi": 0
+        }
+      ]
+    },
+    {
+      "code": "T1JR",
+      "seq": "6",
+      "name": "PRUlink term",
+      "disabled": false,
+      "coverageType": "rider",
+      "type": "COVERAGE",
+      "lifeAssureCd": "01",
+      "custList": [
+        {
+          "customerId": "LA15768259896452700841117",
+          "name": "Tc banyak rider",
+          "anb": 35,
+          "key": 2,
+          "loadList": [
+            {
+              "code": "A1",
+              "selectedCode": "A3",
+              "selectedValue": "150",
+              "divider": "100"
+            },
+            {
+              "code": "A2",
+              "selectedCode": "A23",
+              "selectedValue": "3",
+              "divider": "1000"
+            },
+            {
+              "code": "C1",
+              "selectedCode": "C3",
+              "selectedValue": "75",
+              "divider": "100"
+            },
+            {
+              "code": "H1",
+              "selectedCode": "H9",
+              "selectedValue": "45",
+              "divider": "100"
+            }
+          ],
+          "itemInput": [
+            {
+              "code": "INPUTSA",
+              "description": "Input Sum Assured",
+              "type": "input",
+              "value": "0",
+              "inputValue": "100000000",
+              "key": "PDSA",
+              "coi": 0,
+              "annualPremi": 0
+            },
+            {
+              "code": "TERMOPTION",
+              "description": "Masa Pertanggungan(Sampai Usia)",
+              "type": "option",
+              "value": "55|65|70|75|80|85|99",
+              "inputValue": "65",
+              "key": "PDTERM"
+            }
+          ],
+          "coi": 0,
+          "annualPremi": 0
+        }
+      ]
+    },
+    {
+      "code": "H2BR",
+      "seq": "9",
+      "name": "PRUmed",
+      "disabled": false,
+      "coverageType": "rider",
+      "type": "COVERAGE",
+      "lifeAssureCd": "01",
+      "custList": [
+        {
+          "customerId": "LA15768259896452700841117",
+          "name": "Tc banyak rider",
+          "anb": 35,
+          "key": 2,
+          "loadList": [
+            {
+              "code": "A1",
+              "selectedCode": "A3",
+              "selectedValue": "150",
+              "divider": "100"
+            },
+            {
+              "code": "A2",
+              "selectedCode": "A23",
+              "selectedValue": "3",
+              "divider": "1000"
+            },
+            {
+              "code": "C1",
+              "selectedCode": "C3",
+              "selectedValue": "75",
+              "divider": "100"
+            },
+            {
+              "code": "H1",
+              "selectedCode": "H9",
+              "selectedValue": "45",
+              "divider": "100"
+            }
+          ],
+          "itemInput": [
+            {
+              "code": "INPUTUNIT",
+              "description": "Input Unit",
+              "type": "input",
+              "value": "0",
+              "inputValue": "10",
+              "key": "PDUNIT",
+              "coi": 0,
+              "annualPremi": 0
+            },
+            {
+              "code": "TERMOPTION",
+              "description": "Masa Pertanggungan(Sampai Usia)",
+              "type": "option",
+              "value": "55|65",
+              "inputValue": "65",
+              "key": "PDTERM"
+            }
+          ],
+          "coi": 0,
+          "annualPremi": 0
+        }
+      ]
+    },
+    {
+      "code": "H1Z1",
+      "seq": "11",
+      "name": "PRUprime healthcare plus",
+      "disabled": false,
+      "coverageType": "rider",
+      "type": "COVERAGE",
+      "lifeAssureCd": "01",
+      "custList": [
+        {
+          "customerId": "LA15768259896452700841117",
+          "name": "Tc banyak rider",
+          "anb": 35,
+          "key": 2,
+          "loadList": [
+            {
+              "code": "A1",
+              "selectedCode": "A3",
+              "selectedValue": "150",
+              "divider": "100"
+            },
+            {
+              "code": "A2",
+              "selectedCode": "A23",
+              "selectedValue": "3",
+              "divider": "1000"
+            },
+            {
+              "code": "C1",
+              "selectedCode": "C3",
+              "selectedValue": "75",
+              "divider": "100"
+            },
+            {
+              "code": "H1",
+              "selectedCode": "H9",
+              "selectedValue": "45",
+              "divider": "100"
+            }
+          ],
+          "itemInput": [
+            {
+              "code": "PHCP",
+              "description": "Choose Plan",
+              "type": "nestedoption",
+              "value": "PHCP1, A|PHCP2, B|PHCP3, C|PHCP4, D|PHCP5, E|PHCP6, F|PHCP7, G|PHCP8, H",
+              "inputValue": "F",
+              "key": "PDPLAN",
+              "coi": 0,
+              "annualPremi": 0
+            },
+            {
+              "code": "TERMOPTION",
+              "description": "Masa Pertanggungan(Sampai Usia)",
+              "type": "option",
+              "value": "55|65|75|85|99",
+              "inputValue": "55",
+              "key": "PDTERM"
+            },
+            {
+              "code": "PDPLAN2",
+              "description": "Choose Plan",
+              "type": "option",
+              "key": "PDPLAN2",
+              "inputValue": "1500000"
+            },
+            {
+              "code": "PDSAVER",
+              "description": "Choose Plan",
+              "type": "option",
+              "key": "PDSAVER",
+              "inputValue": "10000000"
+            }
+          ],
+          "coi": 0,
+          "annualPremi": 0
+        }
+      ]
+    },
+    {
+      "code": "W1QR",
+      "seq": "12",
+      "name": "PRUpayor 33",
+      "disabled": false,
+      "coverageType": "rider",
+      "type": "COVERAGE",
+      "lifeAssureCd": "01",
+      "custList": [
+        {
+          "customerId": "LA15768259896452700841117",
+          "name": "Tc banyak rider",
+          "anb": 35,
+          "key": 2,
+          "loadList": [
+            {
+              "code": "A1",
+              "selectedCode": "A3",
+              "selectedValue": "150",
+              "divider": "100"
+            },
+            {
+              "code": "A2",
+              "selectedCode": "A23",
+              "selectedValue": "3",
+              "divider": "1000"
+            },
+            {
+              "code": "C1",
+              "selectedCode": "C3",
+              "selectedValue": "75",
+              "divider": "100"
+            },
+            {
+              "code": "H1",
+              "selectedCode": "H9",
+              "selectedValue": "45",
+              "divider": "100"
+            }
+          ],
+          "itemInput": [
+            {
+              "code": "YESNOOPTION",
+              "description": "Choose Yes or No",
+              "type": "option",
+              "value": "Y|N",
+              "inputValue": "Y",
+              "key": "PDPLAN",
+              "coi": 0,
+              "annualPremi": 0
+            },
+            {
+              "code": "TERMOPTION",
+              "description": "Masa Pertanggungan(Sampai Usia)",
+              "type": "option",
+              "value": "55|65|70|75|80|85",
+              "inputValue": "80",
+              "key": "PDTERM"
+            }
+          ],
+          "coi": 0,
+          "annualPremi": 0
+        }
+      ]
+    },
+    {
+      "code": "S1YR",
+      "seq": "15",
+      "name": "PRUearly stage spouse payor",
+      "disabled": false,
+      "coverageType": "rider",
+      "type": "COVERAGE",
+      "lifeAssureCd": "02",
+      "custList": [
+        {
+          "customerId": "LA15768264757841600841117",
+          "name": "Istri",
+          "anb": 30,
+          "key": 3,
+          "loadList": [
+            {
+              "code": "E1",
+              "selectedCode": "E25",
+              "selectedValue": "125",
+              "divider": "100"
+            },
+            {
+              "code": "E2",
+              "selectedCode": "E35",
+              "selectedValue": "10",
+              "divider": "1000"
+            }
+          ],
+          "itemInput": [
+            {
+              "code": "YESNOOPTION",
+              "description": "Choose Yes or No",
+              "type": "option",
+              "value": "Y|N",
+              "inputValue": "Y",
+              "key": "PDPLAN",
+              "coi": 0,
+              "annualPremi": 0
+            },
+            {
+              "code": "TERMOPTION",
+              "description": "Masa Pertanggungan(Sampai Usia)",
+              "type": "option",
+              "value": "55|60|65|70|75|80|85",
+              "inputValue": "60",
+              "key": "PDTERM"
+            }
+          ],
+          "coi": 0,
+          "annualPremi": 0
+        }
+      ]
+    },
+    {
+      "code": "P1RR",
+      "seq": "8",
+      "name": "PRUpersonal accident death & disablement plus",
+      "disabled": false,
+      "coverageType": "rider",
+      "type": "COVERAGE",
+      "lifeAssureCd": "01",
+      "custList": [
+        {
+          "customerId": "LA15768259896452700841117",
+          "name": "Tc banyak rider",
+          "anb": 35,
+          "key": 2,
+          "loadList": [
+            {
+              "code": "A1",
+              "selectedCode": "A3",
+              "selectedValue": "150",
+              "divider": "100"
+            },
+            {
+              "code": "A2",
+              "selectedCode": "A23",
+              "selectedValue": "3",
+              "divider": "1000"
+            },
+            {
+              "code": "C1",
+              "selectedCode": "C3",
+              "selectedValue": "75",
+              "divider": "100"
+            },
+            {
+              "code": "H1",
+              "selectedCode": "H9",
+              "selectedValue": "45",
+              "divider": "100"
+            }
+          ],
+          "itemInput": [
+            {
+              "code": "INPUTSA",
+              "description": "Input Sum Assured",
+              "type": "input",
+              "value": "0",
+              "inputValue": "100000000",
+              "key": "PDSA",
+              "coi": 0,
+              "annualPremi": 0
+            },
+            {
+              "code": "TERMOPTION",
+              "description": "Masa Pertanggungan(Sampai Usia)",
+              "type": "option",
+              "value": "55|60|65|70",
+              "inputValue": "70",
+              "key": "PDTERM"
+            }
+          ],
+          "coi": 0,
+          "annualPremi": 0
+        }
+      ]
+    },
+    {
+      "code": "C106",
+      "seq": "34",
+      "name": "PRUearly stage crisis cover plus",
+      "disabled": false,
+      "coverageType": "rider",
+      "type": "COVERAGE",
+      "lifeAssureCd": "01",
+      "custList": [
+        {
+          "customerId": "LA15768259896452700841117",
+          "name": "Tc banyak rider",
+          "anb": 35,
+          "key": 2,
+          "loadList": [
+            {
+              "code": "A1",
+              "selectedCode": "A3",
+              "selectedValue": "150",
+              "divider": "100"
+            },
+            {
+              "code": "A2",
+              "selectedCode": "A23",
+              "selectedValue": "3",
+              "divider": "1000"
+            },
+            {
+              "code": "C1",
+              "selectedCode": "C3",
+              "selectedValue": "75",
+              "divider": "100"
+            },
+            {
+              "code": "H1",
+              "selectedCode": "H9",
+              "selectedValue": "45",
+              "divider": "100"
+            }
+          ],
+          "itemInput": [
+            {
+              "code": "INPUTSA",
+              "description": "Input Sum Assured",
+              "type": "input",
+              "value": "0",
+              "inputValue": "100000000",
+              "key": "PDSA",
+              "coi": 0,
+              "annualPremi": 0
+            },
+            {
+              "code": "TERMOPTION",
+              "description": "Masa Pertanggungan(Sampai Usia)",
+              "type": "option",
+              "value": "55|65|70|75|80|85",
+              "inputValue": "70",
+              "key": "PDTERM"
+            }
+          ],
+          "coi": 0,
+          "annualPremi": 0
+        }
+      ]
+    }
+  ],
+  "paymentFrequency": "01",
+  "flagFreeAdmin": "0",
+  "flagSaIncrease": "0",
+  "rateCdList": [
+    "RTC1LRSCB",
+    "CHC1LRSCB",
+    "CHWITHDRAWAL_U2V1",
+    "CHU2V1",
+    "RTLIENR",
+    "RTMAXSA3",
+    "RTMINSA_01",
+    "CHSURRU2V",
+    "CHT1JRSCB",
+    "RTT1JRSCB",
+    "RTH1BRSCB",
+    "CHH1BRSCB",
+    "RTH1Z1SCB",
+    "CHH1Z1SCB",
+    "RTW1QRSCB",
+    "CHW1QRSCB",
+    "RTS1YRSCB",
+    "CHANAS1YRSCB",
+    "CHANES1YRSCB",
+    "CHANIS1YRSCB",
+    "CHCLAS1YRSCB",
+    "CHCLES1YRSCB",
+    "CHCLIS1YRSCB",
+    "RTP1RRSCB",
+    "CHP1RRSCB",
+    "CHC106SCB",
+    "RTC106SCB"
+  ],
+  "mainCoverage": "U2V1",
+  "isPPH": false,
+  "topupList": [],
+  "withdrawalList": [],
+  "custSA": 500000000,
+  "custSaver": 1200000
+}

@@ -1,0 +1,185 @@
+{
+  "currCd": "IDR",
+  "channelCode": "SCB",
+  "productCdCat": "UL",
+  "adminFee": "0",
+  "prodCd": "U2V",
+  "age": 36,
+  "custAgeDay": 12600,
+  "custAgeMonth": 420,
+  "gender": "F",
+  "smokerStatus": "NS",
+  "clazz": "1",
+  "custIncome": "Q",
+  "customerList": [
+    {
+      "Dob": "11/12/1984",
+      "mobile": "8521666648222",
+      "customerId": "PH15761346384773400841117",
+      "MaritalStatus": "S",
+      "pekerjaanCode": "SYSN",
+      "codeTelp": "RI",
+      "age": 35,
+      "anb": 36,
+      "custAge": 35,
+      "custAgeDay": 12600,
+      "custAgeMonth": 420,
+      "name": "hhhhhhhhuuhhuuhhuuhuuufffff",
+      "sex": "F",
+      "smokeStatus": "NS",
+      "clazz": "1",
+      "Departement": "",
+      "isExisting": false,
+      "Business": "",
+      "loadList": []
+    },
+    {
+      "Dob": "11/12/1984",
+      "mobile": "8521666648222",
+      "customerId": "PH15761346384773400841117",
+      "MaritalStatus": "S",
+      "pekerjaanCode": "SYSN",
+      "codeTelp": "RI",
+      "age": 35,
+      "anb": 36,
+      "custAge": 35,
+      "custAgeDay": 12600,
+      "custAgeMonth": 420,
+      "name": "hhhhhhhhuuhhuuhhuuhuuufffff",
+      "sex": "F",
+      "smokeStatus": "NS",
+      "clazz": "1",
+      "Departement": "",
+      "isExisting": false,
+      "Business": "",
+      "loadList": []
+    }
+  ],
+  "campaignType": "",
+  "AMOUNTSAR_DB_CLIENT": 0,
+  "AMOUNTSAR_ADDAD_CLIENT": 0,
+  "manfaatListFromNonSales": [],
+  "manfaat": {
+    "premiUnapplied": 0,
+    "minimumUangPertanggungan": 0,
+    "maksimumUangPertanggungan": 0,
+    "premi": "50000000",
+    "totalPremi": 50000000,
+    "rencanaPembayaran": "10",
+    "alternatifRencanaPembayaran": 2,
+    "halamanRingkasanTahun1": 65,
+    "halamanRingkasanTahun2": 75,
+    "halamanRingkasanTahun3": 85
+  },
+  "manfaatList": [
+    {
+      "code": "U2V1",
+      "seq": "1",
+      "name": "VERSAlink maxima account",
+      "disabled": true,
+      "coverageType": "main",
+      "type": "COVERAGE",
+      "lifeAssureCd": "01",
+      "custList": [
+        {
+          "customerId": "PH15761346384773400841117",
+          "name": "hhhhhhhhuuhhuuhhuuhuuufffff",
+          "anb": 36,
+          "key": 2,
+          "loadList": [
+            {
+              "code": "L2",
+              "selectedCode": "L21",
+              "selectedValue": "2",
+              "divider": "1000"
+            }
+          ],
+          "itemInput": [
+            {
+              "code": "INPUTSA",
+              "description": "Input Sum Assured",
+              "type": "input",
+              "value": "0",
+              "inputValue": "1500000000",
+              "key": "PDSA",
+              "coi": 0,
+              "annualPremi": 0
+            },
+            {
+              "code": "TERMOPTION",
+              "description": "Masa Pertanggungan(Sampai Usia)",
+              "type": "option",
+              "value": "",
+              "key": "PDTERM"
+            }
+          ],
+          "coi": 0,
+          "annualPremi": 0
+        }
+      ]
+    },
+    {
+      "code": "U2C3",
+      "seq": "2",
+      "name": "PRUsaver",
+      "disabled": false,
+      "coverageType": "topup",
+      "type": "COVERAGE",
+      "lifeAssureCd": "01",
+      "custList": [
+        {
+          "customerId": "PH15761346384773400841117",
+          "name": "hhhhhhhhuuhhuuhhuuhuuufffff",
+          "anb": 36,
+          "key": 2,
+          "loadList": [
+            {
+              "code": "L2",
+              "selectedCode": "L21",
+              "selectedValue": "2",
+              "divider": "1000"
+            }
+          ],
+          "itemInput": [
+            {
+              "code": "INPUTPREMI",
+              "description": "Input Premi",
+              "type": "input",
+              "value": "0",
+              "inputValue": 0,
+              "key": "PDPREMI",
+              "coi": 0,
+              "annualPremi": 0
+            },
+            {
+              "code": "TERMOPTION",
+              "description": "Masa Pertanggungan(Sampai Usia)",
+              "type": "option",
+              "value": "",
+              "key": "PDTERM"
+            }
+          ],
+          "coi": 0,
+          "annualPremi": 0
+        }
+      ]
+    }
+  ],
+  "paymentFrequency": "01",
+  "flagFreeAdmin": "0",
+  "flagSaIncrease": "0",
+  "rateCdList": [
+    "CHWITHDRAWAL_U2V1",
+    "CHU2V1",
+    "RTLIENR",
+    "RTMAXSA3",
+    "RTMINSA_01",
+    "CHSURRU2V"
+  ],
+  "mainCoverage": "U2V1",
+  "isPPH": false,
+  "topupList": [],
+  "withdrawalList": [],
+  "custSA": 1500000000,
+  "custSaver": 0
+}

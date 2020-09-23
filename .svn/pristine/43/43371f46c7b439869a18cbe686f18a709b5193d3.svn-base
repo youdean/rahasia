@@ -1,0 +1,227 @@
+{
+  "currCd": "IDR",
+  "channelCode": "SCB",
+  "productCdCat": "UL",
+  "adminFee": "0",
+  "prodCd": "U2V",
+  "age": 25,
+  "custAgeDay": 8640,
+  "custAgeMonth": 288,
+  "gender": "F",
+  "smokerStatus": "NS",
+  "clazz": "1",
+  "custIncome": "Q",
+  "customerList": [
+    {
+      "Dob": "06/12/1995",
+      "mobile": "32132131232321",
+      "customerId": "PH15759718053739900841117",
+      "MaritalStatus": "S",
+      "pekerjaanCode": "HSWF",
+      "codeTelp": "RI",
+      "age": 24,
+      "anb": 25,
+      "custAge": 24,
+      "custAgeDay": 8640,
+      "custAgeMonth": 288,
+      "name": "CEK",
+      "sex": "F",
+      "smokeStatus": "NS",
+      "clazz": "1",
+      "Departement": "",
+      "isExisting": false,
+      "Business": "",
+      "loadList": []
+    },
+    {
+      "Dob": "06/12/1995",
+      "mobile": "32132131232321",
+      "customerId": "PH15759718053739900841117",
+      "MaritalStatus": "S",
+      "pekerjaanCode": "HSWF",
+      "codeTelp": "RI",
+      "age": 24,
+      "anb": 25,
+      "custAge": 24,
+      "custAgeDay": 8640,
+      "custAgeMonth": 288,
+      "name": "CEK",
+      "sex": "F",
+      "smokeStatus": "NS",
+      "clazz": "1",
+      "Departement": "",
+      "isExisting": false,
+      "Business": "",
+      "loadList": []
+    }
+  ],
+  "campaignType": "",
+  "AMOUNTSAR_DB_CLIENT": 0,
+  "AMOUNTSAR_ADDAD_CLIENT": 0,
+  "manfaatListFromNonSales": [],
+  "manfaat": {
+    "premiUnapplied": 0,
+    "minimumUangPertanggungan": 0,
+    "maksimumUangPertanggungan": 0,
+    "premi": "25000000",
+    "totalPremi": 25000000,
+    "rencanaPembayaran": "20",
+    "alternatifRencanaPembayaran": 2,
+    "halamanRingkasanTahun1": 65,
+    "halamanRingkasanTahun2": 75,
+    "halamanRingkasanTahun3": 85
+  },
+  "manfaatList": [
+    {
+      "code": "U2V1",
+      "seq": "1",
+      "name": "VERSAlink maxima account",
+      "disabled": true,
+      "coverageType": "main",
+      "type": "COVERAGE",
+      "lifeAssureCd": "01",
+      "custList": [
+        {
+          "customerId": "PH15759718053739900841117",
+          "name": "CEK",
+          "anb": 25,
+          "key": 2,
+          "loadList": [],
+          "itemInput": [
+            {
+              "code": "INPUTSA",
+              "description": "Input Sum Assured",
+              "type": "input",
+              "value": "0",
+              "inputValue": "6500000000",
+              "key": "PDSA",
+              "coi": 0,
+              "annualPremi": 0
+            },
+            {
+              "code": "TERMOPTION",
+              "description": "Masa Pertanggungan(Sampai Usia)",
+              "type": "option",
+              "value": "",
+              "key": "PDTERM"
+            }
+          ],
+          "coi": 0,
+          "annualPremi": 0
+        }
+      ]
+    },
+    {
+      "code": "U2C3",
+      "seq": "2",
+      "name": "PRUsaver",
+      "disabled": false,
+      "coverageType": "topup",
+      "type": "COVERAGE",
+      "lifeAssureCd": "01",
+      "custList": [
+        {
+          "customerId": "PH15759718053739900841117",
+          "name": "CEK",
+          "anb": 25,
+          "key": 2,
+          "loadList": [],
+          "itemInput": [
+            {
+              "code": "INPUTPREMI",
+              "description": "Input Premi",
+              "type": "input",
+              "value": "0",
+              "inputValue": 0,
+              "key": "PDPREMI",
+              "coi": 0,
+              "annualPremi": 0
+            },
+            {
+              "code": "TERMOPTION",
+              "description": "Masa Pertanggungan(Sampai Usia)",
+              "type": "option",
+              "value": "",
+              "key": "PDTERM"
+            }
+          ],
+          "coi": 0,
+          "annualPremi": 0
+        }
+      ]
+    },
+    {
+      "code": "H1Z1",
+      "seq": "11",
+      "name": "PRUprime healthcare plus",
+      "disabled": false,
+      "coverageType": "rider",
+      "type": "COVERAGE",
+      "lifeAssureCd": "01",
+      "custList": [
+        {
+          "customerId": "PH15759718053739900841117",
+          "name": "CEK",
+          "anb": 25,
+          "key": 2,
+          "loadList": [],
+          "itemInput": [
+            {
+              "code": "PHCP",
+              "description": "Choose Plan",
+              "type": "nestedoption",
+              "value": "PHCP1, A|PHCP2, B|PHCP3, C|PHCP4, D|PHCP5, E|PHCP6, F|PHCP7, G|PHCP8, H",
+              "inputValue": "H",
+              "key": "PDPLAN",
+              "coi": 0,
+              "annualPremi": 0
+            },
+            {
+              "code": "TERMOPTION",
+              "description": "Masa Pertanggungan(Sampai Usia)",
+              "type": "option",
+              "value": "55|65|75|85|99",
+              "inputValue": "85",
+              "key": "PDTERM"
+            },
+            {
+              "code": "PDPLAN2",
+              "description": "Choose Plan",
+              "type": "option",
+              "key": "PDPLAN2",
+              "inputValue": "10000000"
+            },
+            {
+              "code": "PDSAVER",
+              "description": "Choose Plan",
+              "type": "option",
+              "key": "PDSAVER",
+              "inputValue": "Tidak dipilih"
+            }
+          ],
+          "coi": 0,
+          "annualPremi": 0
+        }
+      ]
+    }
+  ],
+  "paymentFrequency": "01",
+  "flagFreeAdmin": "0",
+  "flagSaIncrease": "0",
+  "rateCdList": [
+    "CHWITHDRAWAL_U2V1",
+    "CHU2V1",
+    "RTLIENR",
+    "RTMAXSA3",
+    "RTMINSA_01",
+    "CHSURRU2V",
+    "RTH1Z1SCB",
+    "CHH1Z1SCB"
+  ],
+  "mainCoverage": "U2V1",
+  "isPPH": false,
+  "topupList": [],
+  "withdrawalList": [],
+  "custSA": 6500000000,
+  "custSaver": 0
+}

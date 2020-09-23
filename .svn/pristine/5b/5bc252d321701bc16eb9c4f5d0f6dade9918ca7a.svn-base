@@ -1,0 +1,253 @@
+const express = require('express');
+const bodyParser = require('body-parser');
+const app = express();
+global.__basedir = __dirname;
+
+var fs = require('fs');
+// var rootScopeModule = require(__basedir + '/rootScopeScb3');
+var rootScopeModuleBUOI = require(__basedir + '/rootScopeBUOI');
+var rootScopeModule = require(__basedir + '/rootScopeScb');
+var rootScopeModuleUOB = require(__basedir + '/rootScopeUOB');
+var rootScope = rootScopeModule.rootScope;
+var mappingCode = {};
+
+var MathExpressionBAC = require(__basedir + '/MathExpressionBAC');
+
+app.use(bodyParser.json({ limit: '50mb' }));
+app.use(bodyParser.urlencoded({ limit: '50mb', extended: true }));
+
+app.listen(3001, () => console.log('App listening on port 3001!'))
+
+var writeStream;
+
+app.post('/nb/calculateSCB', function (req, res) {
+    try {
+        rootScope = rootScopeModule.rootScope;
+        MathExpressionBAC.setRootScope(rootScope);
+        var tmpReq = JSON.parse(req.body.param);
+        writeStreamBodyErr = fs.createWriteStream(__basedir + "/log/" + tmpReq.policyNumber + 'calculate_error.log');
+
+        paramProcessIllustration = JSON.parse(req.body.param);
+        writeStream = fs.createWriteStream(__basedir + "/log/" + tmpReq.prodCd + '_log.json');
+
+        var coverageCdList = [];
+        var req = MathExpressionBAC.reMappingCode(paramProcessIllustration, coverageCdList);
+
+        rootScope.RATE = rootScope.RATEDETAIL;
+
+        try {
+            var response = MathExpressionBAC.processIlustration(paramProcessIllustration, 0);
+            writeStream.end();
+            writeStreamBodyErr.end();
+            res.send(response);
+        } catch (e) {
+            writeToConsole("EVAL ERROR : " + e.message + "\r\n" + e.stack);
+            res.send("Error 500: " + e.message + "\r\n" + e.stack);
+        }
+    } catch (e) {
+        writeToConsole("EVAL ERROR : " + e.message + "\r\n" + e.stack);
+        res.send("Error 500: " + e.message + "\r\n" + e.stack);
+    }
+});
+
+app.post('/nb/calculateBUOI', function (req, res) {
+    try {
+        rootScope = rootScopeModuleBUOI.rootScope;
+        MathExpressionBAC.setRootScope(rootScope);
+        var tmpReq = JSON.parse(req.body.param);
+        writeStreamBodyErr = fs.createWriteStream(__basedir + "/log/" + tmpReq.policyNumber + 'calculate_error.log');
+
+        paramProcessIllustration = JSON.parse(req.body.param);
+        writeStream = fs.createWriteStream('testSCB.txt');
+
+        var coverageCdList = [];
+        var req = MathExpressionBAC.reMappingCode(paramProcessIllustration, coverageCdList);
+
+        rootScope.RATE = rootScope.RATEDETAIL;
+
+        try {
+            var response = MathExpressionBAC.processIlustration(paramProcessIllustration, 0);
+            writeStream.end();
+            writeStreamBodyErr.end();
+            res.send(response);
+        } catch (e) {
+            writeToConsole("EVAL ERROR : " + e.message + "\r\n" + e.stack);
+            res.send("Error 500: " + e.message + "\r\n" + e.stack);
+        }
+    } catch (e) {
+        writeToConsole("EVAL ERROR : " + e.message + "\r\n" + e.stack);
+        res.send("Error 500: " + e.message + "\r\n" + e.stack);
+    }
+});
+
+app.post('/nb/calculateUOB', function (req, res) {
+    try {
+        rootScope = rootScopeModuleUOB.rootScope;
+        MathExpressionBAC.setRootScope(rootScope);
+        var tmpReq = JSON.parse(req.body.param);
+        writeStreamBodyErr = fs.createWriteStream(__basedir + "/log/" + tmpReq.policyNumber + 'calculate_error.log');
+
+        paramProcessIllustration = JSON.parse(req.body.param);
+        writeStream = fs.createWriteStream('testUOB.txt');
+
+        var coverageCdList = [];
+        var req = MathExpressionBAC.reMappingCode(paramProcessIllustration, coverageCdList);
+
+        rootScope.RATE = rootScope.RATEDETAIL;
+
+        try {
+            var response = MathExpressionBAC.processIlustration(paramProcessIllustration, 0);
+            writeStream.end();
+            writeStreamBodyErr.end();
+            res.send(response);
+        } catch (e) {
+            writeToConsole("EVAL ERROR : " + e.message + "\r\n" + e.stack);
+            res.send("Error 500: " + e.message + "\r\n" + e.stack);
+        }
+    } catch (e) {
+        writeToConsole("EVAL ERROR : " + e.message + "\r\n" + e.stack);
+        res.send("Error 500: " + e.message + "\r\n" + e.stack);
+    }
+});
+
+app.post('/nb/getPremiUob', function (req, res) {
+    try {
+        rootScope = rootScopeModuleUOB.rootScope;
+        MathExpressionBAC.setRootScope(rootScope);
+        var tmpReq = JSON.parse(req.body.param);
+        writeStream = fs.createWriteStream(__basedir + "/log/" + tmpReq.policyNumber + '_log.json');
+
+        writeStreamBody = fs.createWriteStream(__basedir + "/log/" + tmpReq.policyNumber + new Date().getMilliseconds().toString() + '_request.json');
+        writeStreamBody.write(req.body.param);
+        writeStreamBody.end();
+
+        writeStreamBodyA = fs.createWriteStream(__basedir + "/log/" + tmpReq.policyNumber + '_request_afterAlterPrep.json');
+        writeStreamBodyErr = fs.createWriteStream(__basedir + "/log/" + tmpReq.policyNumber + '_error.log');
+
+        var coverageCdList = [];
+        var req = MathExpressionBAC.reMappingCode(tmpReq, coverageCdList);
+
+        rootScope.RATE = rootScope.RATEDETAIL;
+
+        try {
+            var response = MathExpressionBAC.getUnappliedPremium(req, "flagHitung", undefined);
+            writeStream.end();
+            writeStreamBodyA.end();
+            writeStreamBodyErr.end();
+            res.send(response);
+        } catch (e) {
+            writeToConsole("EVAL ERROR : " + e.message + "\r\n" + e.stack);
+            res.send("Error 500: " + e.message + "\r\n" + e.stack);
+        }
+
+
+    } catch (e) {
+        writeToConsole("EVAL ERROR : " + e.message + "\r\n" + e.stack);
+        res.send("Error 500: " + e.message + "\r\n" + e.stack);
+    }
+});
+
+app.post('/nb/getPremiScb', function (req, res) {
+    try {
+        rootScope = rootScopeModule.rootScope;
+        MathExpressionBAC.setRootScope(rootScope)
+        var tmpReq = JSON.parse(req.body.param);
+        writeStream = fs.createWriteStream(__basedir + "/log/" + tmpReq.policyNumber + '_log.json');
+
+        writeStreamBody = fs.createWriteStream(__basedir + "/log/" + tmpReq.policyNumber + new Date().getMilliseconds().toString() + '_request.json');
+        writeStreamBody.write(req.body.param);
+        writeStreamBody.end();
+
+        writeStreamBodyA = fs.createWriteStream(__basedir + "/log/" + tmpReq.policyNumber + '_request_afterAlterPrep.json');
+        writeStreamBodyErr = fs.createWriteStream(__basedir + "/log/" + tmpReq.policyNumber + '_error.log');
+
+        var coverageCdList = [];
+        var req = MathExpressionBAC.reMappingCode(tmpReq, coverageCdList);
+
+        rootScope.RATE = rootScope.RATEDETAIL;
+
+        try {
+            var response = MathExpressionBAC.getUnappliedPremium(req, "flagHitung", undefined);
+            writeStream.end();
+            writeStreamBodyA.end();
+            writeStreamBodyErr.end();
+            res.send(response);
+        } catch (e) {
+            writeToConsole("EVAL ERROR : " + e.message + "\r\n" + e.stack);
+            res.send("Error 500: " + e.message + "\r\n" + e.stack);
+        }
+
+
+    } catch (e) {
+        writeToConsole("EVAL ERROR : " + e.message + "\r\n" + e.stack);
+        res.send("Error 500: " + e.message + "\r\n" + e.stack);
+    }
+});
+
+app.post('/nb/getPremiBUOI', function (req, res) {
+    try {
+        rootScope = rootScopeModuleBUOI.rootScope;
+        MathExpressionBAC.setRootScope(rootScope)
+        var tmpReq = JSON.parse(req.body.param);
+        writeStream = fs.createWriteStream(__basedir + "/log/" + tmpReq.policyNumber + '_log.json');
+
+        writeStreamBody = fs.createWriteStream(__basedir + "/log/" + tmpReq.policyNumber + new Date().getMilliseconds().toString() + '_request.json');
+        writeStreamBody.write(req.body.param);
+        writeStreamBody.end();
+
+        writeStreamBodyA = fs.createWriteStream(__basedir + "/log/" + tmpReq.policyNumber + '_request_afterAlterPrep.json');
+        writeStreamBodyErr = fs.createWriteStream(__basedir + "/log/" + tmpReq.policyNumber + '_error.log');
+
+        var coverageCdList = [];
+        var req = MathExpressionBAC.reMappingCode(tmpReq, coverageCdList);
+
+        rootScope.RATE = rootScope.RATEDETAIL;
+
+        try {
+            var response = MathExpressionBAC.getUnappliedPremium(req, "flagHitung", undefined);
+            writeStream.end();
+            writeStreamBodyA.end();
+            writeStreamBodyErr.end();
+            res.send(response);
+        } catch (e) {
+            writeToConsole("EVAL ERROR : " + e.message + "\r\n" + e.stack);
+            res.send("Error 500: " + e.message + "\r\n" + e.stack);
+        }
+
+
+    } catch (e) {
+        writeToConsole("EVAL ERROR : " + e.message + "\r\n" + e.stack);
+        res.send("Error 500: " + e.message + "\r\n" + e.stack);
+    }
+});
+
+function writeToLogFile(log) {
+    writeStream.write(JSON.stringify(log, null, "\t") + "\n");
+}
+
+function writeToConsole(log) {
+    console.log(log);
+    writeStreamBodyErr.write(log.toString());
+}
+
+function parseToLogFile(paramMap, ITEM, tmpFormula, stringFormulaOri, stringFormula, stringFormulaAlt, description,
+    result, resultAlternativeAsumtion, formula, logFile) {
+    var log = {};
+    log.desc = description;
+    log.year = paramMap.year;
+    log.item_code = ITEM.code != undefined ? ITEM.code : ITEM.coverage;
+    log.item_type = tmpFormula.itemType.toUpperCase();
+    log.coverage = ITEM.coverageCode;
+    log.formula_code = tmpFormula.formulaCd;
+    log.formula_asli = stringFormulaOri;
+    log.formula_client = stringFormula;
+    log.formula_alt = stringFormulaAlt;
+    log.hasil_client = result;
+    log.hasil_alt = resultAlternativeAsumtion;
+    log.formula_type = formula.formulaTypeCd;
+    log.output = tmpFormula.output;
+
+    writeToLogFile(log);
+}
+
+exports.parseToLogFile = parseToLogFile

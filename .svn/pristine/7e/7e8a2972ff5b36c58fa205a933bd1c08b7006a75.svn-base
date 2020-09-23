@@ -1,0 +1,420 @@
+{
+  "currCd": "IDR",
+  "channelCode": "SCB",
+  "productCdCat": "UL",
+  "adminFee": "0",
+  "prodCd": "U2V",
+  "age": 14,
+  "custAgeDay": 5076,
+  "custAgeMonth": 166,
+  "gender": "M",
+  "smokerStatus": "NS",
+  "clazz": "1",
+  "custIncome": "Q",
+  "customerList": [
+    {
+      "age": 34,
+      "clazz": "1",
+      "custAgeDay": 12777,
+      "custAge": 34,
+      "anb": 35,
+      "smokeStatus": "NS",
+      "MaritalStatus": "M",
+      "sex": "M",
+      "isExisting": false,
+      "Business": "",
+      "loadList": [],
+      "Departement": "",
+      "name": "Duasatu ulang",
+      "customerId": "PH15773494705824400841117",
+      "Dob": "01/01/1985",
+      "pekerjaanCode": "TRAD",
+      "mobile": "888888888",
+      "custAgeMonth": 419,
+      "codeTelp": "RI"
+    },
+    {
+      "age": 13,
+      "clazz": "1",
+      "custAgeDay": 5076,
+      "custAge": 13,
+      "anb": 14,
+      "smokeStatus": "NS",
+      "MaritalStatus": "M",
+      "sex": "M",
+      "isExisting": false,
+      "Business": "",
+      "loadList": [],
+      "Departement": "",
+      "name": "Anak",
+      "customerId": "LA15773494705824800841117",
+      "Dob": "01/02/2006",
+      "pekerjaanCode": "NSTN",
+      "mobile": "888888888",
+      "custAgeMonth": 166,
+      "codeTelp": "RI"
+    },
+    {
+      "age": 34,
+      "clazz": "1",
+      "custAgeDay": 12777,
+      "Departemen": "",
+      "custAge": 34,
+      "anb": 35,
+      "smokeStatus": "NS",
+      "MaritalStatus": "M",
+      "sex": "F",
+      "Business": "",
+      "loadList": [],
+      "name": "Ibu",
+      "customerId": "LA15773496141173000841117",
+      "Dob": "01/01/1985",
+      "pekerjaanCode": "TRAD",
+      "mobile": "888888888",
+      "custAgeMonth": 419,
+      "codeTelp": "RI"
+    },
+    {
+      "age": 34,
+      "clazz": "1",
+      "custAgeDay": 12777,
+      "Departemen": "",
+      "custAge": 34,
+      "anb": 35,
+      "smokeStatus": "NS",
+      "MaritalStatus": "M",
+      "sex": "M",
+      "Business": "",
+      "loadList": [],
+      "name": "Ayah",
+      "customerId": "LA15773496141175400841117",
+      "Dob": "01/01/1985",
+      "pekerjaanCode": "TRAD",
+      "mobile": "888888888",
+      "custAgeMonth": 419,
+      "codeTelp": "RI"
+    }
+  ],
+  "campaignType": "",
+  "AMOUNTSAR_DB_CLIENT": 0,
+  "AMOUNTSAR_ADDAD_CLIENT": 0,
+  "manfaatListFromNonSales": [],
+  "manfaat": {
+    "premiUnapplied": 0,
+    "minimumUangPertanggungan": 0,
+    "maksimumUangPertanggungan": 0,
+    "premi": "70000000",
+    "totalPremi": 100000000,
+    "rencanaPembayaran": "10",
+    "alternatifRencanaPembayaran": 2,
+    "halamanRingkasanTahun1": 65,
+    "halamanRingkasanTahun2": 75,
+    "halamanRingkasanTahun3": 85
+  },
+  "manfaatList": [
+    {
+      "code": "U2V1",
+      "seq": "1",
+      "name": "VERSAlink maxima account",
+      "disabled": true,
+      "coverageType": "main",
+      "type": "COVERAGE",
+      "lifeAssureCd": "01",
+      "custList": [
+        {
+          "customerId": "LA15773494705824800841117",
+          "name": "Anak",
+          "anb": 14,
+          "key": 2,
+          "loadList": [
+            {
+              "code": "L1",
+              "selectedCode": "L2",
+              "selectedValue": "50",
+              "divider": "100"
+            },
+            {
+              "code": "T1",
+              "selectedCode": "T2",
+              "selectedValue": "50",
+              "divider": "100"
+            },
+            {
+              "code": "A1",
+              "selectedCode": "A4",
+              "selectedValue": "200",
+              "divider": "100"
+            }
+          ],
+          "itemInput": [
+            {
+              "code": "INPUTSA",
+              "description": "Input Sum Assured",
+              "type": "input",
+              "value": "0",
+              "inputValue": "1900000000",
+              "key": "PDSA",
+              "coi": 0,
+              "annualPremi": 0
+            },
+            {
+              "code": "TERMOPTION",
+              "description": "Masa Pertanggungan(Sampai Usia)",
+              "type": "option",
+              "value": "",
+              "key": "PDTERM"
+            }
+          ],
+          "coi": 0,
+          "annualPremi": 0
+        }
+      ]
+    },
+    {
+      "code": "U2C3",
+      "seq": "2",
+      "name": "PRUsaver",
+      "disabled": false,
+      "coverageType": "topup",
+      "type": "COVERAGE",
+      "lifeAssureCd": "01",
+      "custList": [
+        {
+          "customerId": "LA15773494705824800841117",
+          "name": "Anak",
+          "anb": 14,
+          "key": 2,
+          "loadList": [
+            {
+              "code": "L1",
+              "selectedCode": "L2",
+              "selectedValue": "50",
+              "divider": "100"
+            },
+            {
+              "code": "T1",
+              "selectedCode": "T2",
+              "selectedValue": "50",
+              "divider": "100"
+            },
+            {
+              "code": "A1",
+              "selectedCode": "A4",
+              "selectedValue": "200",
+              "divider": "100"
+            }
+          ],
+          "itemInput": [
+            {
+              "code": "INPUTPREMI",
+              "description": "Input Premi",
+              "type": "input",
+              "value": "0",
+              "inputValue": "30000000",
+              "key": "PDPREMI",
+              "coi": 0,
+              "annualPremi": 0
+            },
+            {
+              "code": "TERMOPTION",
+              "description": "Masa Pertanggungan(Sampai Usia)",
+              "type": "option",
+              "value": "",
+              "key": "PDTERM"
+            }
+          ],
+          "coi": 0,
+          "annualPremi": 0
+        }
+      ]
+    },
+    {
+      "code": "P1G1",
+      "seq": "7",
+      "name": "PRUpersonal accident death & disablement",
+      "disabled": false,
+      "coverageType": "rider",
+      "type": "COVERAGE",
+      "lifeAssureCd": "01",
+      "custList": [
+        {
+          "customerId": "LA15773494705824800841117",
+          "name": "Anak",
+          "anb": 14,
+          "key": 2,
+          "loadList": [
+            {
+              "code": "L1",
+              "selectedCode": "L2",
+              "selectedValue": "50",
+              "divider": "100"
+            },
+            {
+              "code": "T1",
+              "selectedCode": "T2",
+              "selectedValue": "50",
+              "divider": "100"
+            },
+            {
+              "code": "A1",
+              "selectedCode": "A4",
+              "selectedValue": "200",
+              "divider": "100"
+            }
+          ],
+          "itemInput": [
+            {
+              "code": "INPUTSA",
+              "description": "Input Sum Assured",
+              "type": "input",
+              "value": "0",
+              "inputValue": "25000000",
+              "key": "PDSA",
+              "coi": 0,
+              "annualPremi": 0
+            },
+            {
+              "code": "TERMOPTION",
+              "description": "Masa Pertanggungan(Sampai Usia)",
+              "type": "option",
+              "value": "55|60|65|70",
+              "inputValue": "60",
+              "key": "PDTERM"
+            }
+          ],
+          "coi": 0,
+          "annualPremi": 0
+        }
+      ]
+    },
+    {
+      "code": "W1XR",
+      "seq": "17",
+      "name": "PRUparent payor 33",
+      "disabled": false,
+      "coverageType": "rider",
+      "type": "COVERAGE",
+      "lifeAssureCd": "02,03",
+      "custList": [
+        {
+          "customerId": "LA15773496141173000841117",
+          "name": "Ibu",
+          "anb": 35,
+          "key": 3,
+          "loadList": [
+            {
+              "code": "L1",
+              "selectedCode": "L16",
+              "selectedValue": "150",
+              "divider": "100"
+            },
+            {
+              "code": "C1",
+              "selectedCode": "C12",
+              "selectedValue": "50",
+              "divider": "100"
+            },
+            {
+              "code": "P1",
+              "selectedCode": "P18",
+              "selectedValue": "200",
+              "divider": "100"
+            }
+          ],
+          "itemInput": [
+            {
+              "code": "YESNOOPTION",
+              "description": "Choose Yes or No",
+              "type": "option",
+              "value": "Y|N",
+              "inputValue": "Y",
+              "key": "PDPLAN",
+              "coi": 0,
+              "annualPremi": 0
+            },
+            {
+              "code": "TERMOPTION",
+              "description": "Masa Pertanggungan(Sampai Usia)",
+              "type": "option",
+              "value": "18|25",
+              "inputValue": "25",
+              "key": "PDTERM"
+            }
+          ],
+          "coi": 0,
+          "annualPremi": 0
+        },
+        {
+          "customerId": "LA15773496141175400841117",
+          "name": "Ayah",
+          "anb": 35,
+          "key": 4,
+          "loadList": [
+            {
+              "code": "L1",
+              "selectedCode": "L43",
+              "selectedValue": "75",
+              "divider": "100"
+            },
+            {
+              "code": "C1",
+              "selectedCode": "C22",
+              "selectedValue": "50",
+              "divider": "100"
+            },
+            {
+              "code": "P1",
+              "selectedCode": "P24",
+              "selectedValue": "100",
+              "divider": "100"
+            }
+          ],
+          "itemInput": [
+            {
+              "code": "YESNOOPTION",
+              "description": "Choose Yes or No",
+              "type": "option",
+              "value": "Y|N",
+              "inputValue": "Y",
+              "key": "PDPLAN",
+              "coi": 0,
+              "annualPremi": 0
+            },
+            {
+              "code": "TERMOPTION",
+              "description": "Masa Pertanggungan(Sampai Usia)",
+              "type": "option",
+              "value": "18|25",
+              "inputValue": "25",
+              "key": "PDTERM"
+            }
+          ],
+          "coi": 0,
+          "annualPremi": 0
+        }
+      ]
+    }
+  ],
+  "paymentFrequency": "01",
+  "flagFreeAdmin": "0",
+  "flagSaIncrease": "0",
+  "rateCdList": [
+    "CHWITHDRAWAL_U2V1",
+    "CHU2V1",
+    "RTLIENR",
+    "RTMAXSA3",
+    "RTMINSA_01",
+    "CHSURRU2V",
+    "RTP1GRSCB",
+    "CHP1GRSCB",
+    "RTW1XRSCB",
+    "CHCLW1XRSCB",
+    "CHANW1XRSCB"
+  ],
+  "mainCoverage": "U2V1",
+  "isPPH": false,
+  "topupList": [],
+  "withdrawalList": [],
+  "custSA": 1900000000,
+  "custSaver": 30000000
+}

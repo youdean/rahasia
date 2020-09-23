@@ -1,0 +1,843 @@
+{
+  "currCd": "IDR",
+  "channelCode": "SCB",
+  "productCdCat": "UL",
+  "adminFee": "0",
+  "prodCd": "U2V",
+  "age": 35,
+  "custAgeDay": 12240,
+  "custAgeMonth": 408,
+  "gender": "F",
+  "smokerStatus": "NS",
+  "clazz": "2",
+  "custIncome": "H",
+  "customerList": [
+    {
+      "Dob": "05/12/1985",
+      "mobile": "8520645555",
+      "customerId": "PH15755320775739800841117",
+      "MaritalStatus": "S",
+      "pekerjaanCode": "ILLS",
+      "codeTelp": "RI",
+      "age": 34,
+      "anb": 35,
+      "custAge": 34,
+      "custAgeDay": 12240,
+      "custAgeMonth": 408,
+      "name": "vma baby",
+      "sex": "F",
+      "smokeStatus": "NS",
+      "clazz": "2",
+      "Departement": "",
+      "isExisting": false,
+      "Business": "",
+      "loadList": [],
+      "income": "H"
+    },
+    {
+      "Dob": "05/12/1985",
+      "mobile": "8520645555",
+      "customerId": "PH15755320775739800841117",
+      "MaritalStatus": "S",
+      "pekerjaanCode": "ILLS",
+      "codeTelp": "RI",
+      "age": 34,
+      "anb": 35,
+      "custAge": 34,
+      "custAgeDay": 12240,
+      "custAgeMonth": 408,
+      "name": "vma baby",
+      "sex": "F",
+      "smokeStatus": "NS",
+      "clazz": "2",
+      "Departement": "",
+      "isExisting": false,
+      "Business": "",
+      "loadList": [],
+      "income": "H"
+    }
+  ],
+  "campaignType": "",
+  "AMOUNTSAR_DB_CLIENT": 0,
+  "AMOUNTSAR_ADDAD_CLIENT": 0,
+  "manfaatListFromNonSales": [],
+  "manfaat": {
+    "premiUnapplied": 0,
+    "minimumUangPertanggungan": 0,
+    "maksimumUangPertanggungan": 0,
+    "premi": 864000000,
+    "totalPremi": 864000000,
+    "rencanaPembayaran": "30",
+    "alternatifRencanaPembayaran": 2,
+    "halamanRingkasanTahun1": 65,
+    "halamanRingkasanTahun2": 75,
+    "halamanRingkasanTahun3": 85
+  },
+  "manfaatList": [
+    {
+      "code": "U2V1",
+      "seq": "1",
+      "name": "VERSAlink maxima account",
+      "disabled": true,
+      "coverageType": "main",
+      "type": "COVERAGE",
+      "lifeAssureCd": "01",
+      "custList": [
+        {
+          "customerId": "PH15755320775739800841117",
+          "name": "vma baby",
+          "anb": 35,
+          "key": 2,
+          "loadList": [],
+          "itemInput": [
+            {
+              "code": "INPUTSA",
+              "description": "Input Sum Assured",
+              "type": "input",
+              "value": "0",
+              "inputValue": "62600000000",
+              "key": "PDSA",
+              "coi": 0,
+              "annualPremi": 0
+            },
+            {
+              "code": "TERMOPTION",
+              "description": "Masa Pertanggungan(Sampai Usia)",
+              "type": "option",
+              "value": "",
+              "key": "PDTERM"
+            }
+          ],
+          "coi": 0,
+          "annualPremi": 0
+        }
+      ],
+      "oldCode": "U2V1",
+      "cumulativeCalculateUsingNewRate": true,
+      "cumulativeRemainingSA": "62600000000",
+      "showCode": "U2V1"
+    },
+    {
+      "code": "U2C3",
+      "seq": "2",
+      "name": "PRUsaver",
+      "disabled": false,
+      "coverageType": "topup",
+      "type": "COVERAGE",
+      "lifeAssureCd": "01",
+      "custList": [
+        {
+          "customerId": "PH15755320775739800841117",
+          "name": "vma baby",
+          "anb": 35,
+          "key": 2,
+          "loadList": [],
+          "itemInput": [
+            {
+              "code": "INPUTPREMI",
+              "description": "Input Premi",
+              "type": "input",
+              "value": "0",
+              "inputValue": 0,
+              "key": "PDPREMI",
+              "coi": 0,
+              "annualPremi": 0
+            },
+            {
+              "code": "TERMOPTION",
+              "description": "Masa Pertanggungan(Sampai Usia)",
+              "type": "option",
+              "value": "",
+              "key": "PDTERM"
+            }
+          ],
+          "coi": 0,
+          "annualPremi": 0
+        }
+      ],
+      "oldCode": "U2C3",
+      "showCode": "U2C3"
+    },
+    {
+      "code": "T1JR",
+      "seq": "6",
+      "name": "PRUlink term",
+      "disabled": false,
+      "coverageType": "rider",
+      "type": "COVERAGE",
+      "lifeAssureCd": "01",
+      "custList": [
+        {
+          "customerId": "PH15755320775739800841117",
+          "name": "vma baby",
+          "anb": 35,
+          "key": 2,
+          "loadList": [],
+          "itemInput": [
+            {
+              "code": "INPUTSA",
+              "description": "Input Sum Assured",
+              "type": "input",
+              "value": "0",
+              "inputValue": "500000000",
+              "key": "PDSA",
+              "coi": 0,
+              "annualPremi": 0
+            },
+            {
+              "code": "TERMOPTION",
+              "description": "Masa Pertanggungan(Sampai Usia)",
+              "type": "option",
+              "value": "55|65|70|75|80|85|99",
+              "inputValue": "85",
+              "key": "PDTERM"
+            }
+          ],
+          "coi": 0,
+          "annualPremi": 0
+        }
+      ],
+      "oldCode": "T1JR",
+      "showCode": "T1JR"
+    },
+    {
+      "code": "H2BR",
+      "seq": "9",
+      "name": "PRUmed",
+      "disabled": false,
+      "coverageType": "rider",
+      "type": "COVERAGE",
+      "lifeAssureCd": "01",
+      "custList": [
+        {
+          "customerId": "PH15755320775739800841117",
+          "name": "vma baby",
+          "anb": 35,
+          "key": 2,
+          "loadList": [],
+          "itemInput": [
+            {
+              "code": "INPUTUNIT",
+              "description": "Input Unit",
+              "type": "input",
+              "value": "0",
+              "inputValue": "5",
+              "key": "PDUNIT",
+              "coi": 0,
+              "annualPremi": 0
+            },
+            {
+              "code": "TERMOPTION",
+              "description": "Masa Pertanggungan(Sampai Usia)",
+              "type": "option",
+              "value": "55|65",
+              "inputValue": "65",
+              "key": "PDTERM"
+            }
+          ],
+          "coi": 0,
+          "annualPremi": 0
+        }
+      ],
+      "oldCode": "H2BR",
+      "showCode": "H2BR"
+    },
+    {
+      "code": "H2TR",
+      "seq": "10",
+      "name": "PRUhospital & surgical cover",
+      "disabled": false,
+      "coverageType": "rider",
+      "type": "COVERAGE",
+      "lifeAssureCd": "01",
+      "custList": [
+        {
+          "customerId": "PH15755320775739800841117",
+          "name": "vma baby",
+          "anb": 35,
+          "key": 2,
+          "loadList": [],
+          "itemInput": [
+            {
+              "code": "PLANOPTION4",
+              "description": "Choose hospital plan",
+              "type": "option",
+              "value": "A+#A|B+#B|C+#C|D+#D|E+#E|F+#F|G+#G|H+#H",
+              "inputValue": "C+#C",
+              "key": "PDPLAN",
+              "coi": 0,
+              "annualPremi": 0
+            },
+            {
+              "code": "TERMOPTION",
+              "description": "Masa Pertanggungan(Sampai Usia)",
+              "type": "option",
+              "value": "55|65|75",
+              "inputValue": "75",
+              "key": "PDTERM"
+            }
+          ],
+          "coi": 0,
+          "annualPremi": 0
+        }
+      ],
+      "oldCode": "H2TR",
+      "showCode": "H2TR"
+    },
+    {
+      "code": "W1QR",
+      "seq": "12",
+      "name": "PRUpayor 33",
+      "disabled": false,
+      "coverageType": "rider",
+      "type": "COVERAGE",
+      "lifeAssureCd": "01",
+      "custList": [
+        {
+          "customerId": "PH15755320775739800841117",
+          "name": "vma baby",
+          "anb": 35,
+          "key": 2,
+          "loadList": [],
+          "itemInput": [
+            {
+              "code": "YESNOOPTION",
+              "description": "Choose Yes or No",
+              "type": "option",
+              "value": "Y|N",
+              "inputValue": "N",
+              "key": "PDPLAN",
+              "coi": 0,
+              "annualPremi": 0
+            },
+            {
+              "code": "TERMOPTION",
+              "description": "Masa Pertanggungan(Sampai Usia)",
+              "type": "option",
+              "value": "55|65|70|75|80|85",
+              "key": "PDTERM"
+            }
+          ],
+          "coi": 0,
+          "annualPremi": 0
+        }
+      ],
+      "oldCode": "W1QR",
+      "showCode": "W1QR"
+    },
+    {
+      "code": "W1WR",
+      "seq": "14",
+      "name": "PRUwaiver 33",
+      "disabled": false,
+      "coverageType": "rider",
+      "type": "COVERAGE",
+      "lifeAssureCd": "01",
+      "custList": [
+        {
+          "customerId": "PH15755320775739800841117",
+          "name": "vma baby",
+          "anb": 35,
+          "key": 2,
+          "loadList": [],
+          "itemInput": [
+            {
+              "code": "YESNOOPTION",
+              "description": "Choose Yes or No",
+              "type": "option",
+              "value": "Y|N",
+              "inputValue": "Y",
+              "key": "PDPLAN",
+              "coi": 0,
+              "annualPremi": 0
+            },
+            {
+              "code": "TERMOPTION",
+              "description": "Masa Pertanggungan(Sampai Usia)",
+              "type": "option",
+              "value": "55|65|70|75|80|85",
+              "inputValue": "75",
+              "key": "PDTERM"
+            }
+          ],
+          "coi": 0,
+          "annualPremi": 0
+        }
+      ],
+      "oldCode": "W1WR",
+      "showCode": "W1WR"
+    }
+  ],
+  "paymentFrequency": "12",
+  "flagFreeAdmin": "0",
+  "flagSaIncrease": "0",
+  "rateCdList": [
+    "CHWITHDRAWAL_U2V1",
+    "CHU2V1",
+    "RTLIENR",
+    "RTMAXSA3",
+    "RTMINSA_01",
+    "CHSURRU2V",
+    "CHT1JRSCB",
+    "RTT1JRSCB",
+    "RTH1BRSCB",
+    "CHH1BRSCB",
+    "CHH1TR",
+    "RTH1TR",
+    "RTW1QRSCB",
+    "CHW1QRSCB",
+    "RTW1WRSCB",
+    "CHW1WRSCB"
+  ],
+  "mainCoverage": "U2V1",
+  "isPPH": false,
+  "topupList": [],
+  "withdrawalList": [],
+  "custSA": 62600000000,
+  "custSaver": 0,
+  "process": "NB",
+  "manfaatListObsolete": [],
+  "issuedDate": "2019-12-05T09:08:19.717Z",
+  "ManfaatListCVCalc": [
+    {
+      "code": "U2C3",
+      "name": "PRUsaver",
+      "disabled": false,
+      "coverageType": "topup",
+      "type": "COVERAGE",
+      "lifeAssureCd": "01",
+      "tertanggungName": "vma baby",
+      "tertanggungAge": 35,
+      "tertanggungKey": 2,
+      "tertanggungCustomerId": "PH15755320775739800841117",
+      "itemInput": [
+        {
+          "code": "INPUTPREMI",
+          "description": "Input Premi",
+          "type": "input",
+          "value": "0",
+          "inputValue": 0,
+          "key": "PDPREMI",
+          "coi": 0,
+          "annualPremi": 0
+        },
+        {
+          "code": "TERMOPTION",
+          "description": "Masa Pertanggungan(Sampai Usia)",
+          "type": "option",
+          "value": "",
+          "key": "PDTERM"
+        }
+      ],
+      "loadMap": {},
+      "oldCode": "U2C3",
+      "age": 35,
+      "isPPH": "D"
+    },
+    {
+      "code": "T1JR",
+      "name": "PRUlink term",
+      "disabled": false,
+      "coverageType": "rider",
+      "type": "COVERAGE",
+      "lifeAssureCd": "01",
+      "tertanggungName": "vma baby",
+      "tertanggungAge": 35,
+      "tertanggungKey": 2,
+      "tertanggungCustomerId": "PH15755320775739800841117",
+      "itemInput": [
+        {
+          "code": "INPUTSA",
+          "description": "Input Sum Assured",
+          "type": "input",
+          "value": "0",
+          "inputValue": "500000000",
+          "key": "PDSA",
+          "coi": 0,
+          "annualPremi": 0
+        },
+        {
+          "code": "TERMOPTION",
+          "description": "Masa Pertanggungan(Sampai Usia)",
+          "type": "option",
+          "value": "55|65|70|75|80|85|99",
+          "inputValue": "85",
+          "key": "PDTERM"
+        }
+      ],
+      "loadMap": {},
+      "oldCode": "T1JR",
+      "age": 35,
+      "isPPH": "D"
+    },
+    {
+      "code": "H2BR",
+      "name": "PRUmed",
+      "disabled": false,
+      "coverageType": "rider",
+      "type": "COVERAGE",
+      "lifeAssureCd": "01",
+      "tertanggungName": "vma baby",
+      "tertanggungAge": 35,
+      "tertanggungKey": 2,
+      "tertanggungCustomerId": "PH15755320775739800841117",
+      "itemInput": [
+        {
+          "code": "INPUTUNIT",
+          "description": "Input Unit",
+          "type": "input",
+          "value": "0",
+          "inputValue": "5",
+          "key": "PDUNIT",
+          "coi": 0,
+          "annualPremi": 0
+        },
+        {
+          "code": "TERMOPTION",
+          "description": "Masa Pertanggungan(Sampai Usia)",
+          "type": "option",
+          "value": "55|65",
+          "inputValue": "65",
+          "key": "PDTERM"
+        }
+      ],
+      "loadMap": {},
+      "oldCode": "H2BR",
+      "age": 35,
+      "isPPH": "D"
+    },
+    {
+      "code": "H2TR",
+      "name": "PRUhospital & surgical cover",
+      "disabled": false,
+      "coverageType": "rider",
+      "type": "COVERAGE",
+      "lifeAssureCd": "01",
+      "tertanggungName": "vma baby",
+      "tertanggungAge": 35,
+      "tertanggungKey": 2,
+      "tertanggungCustomerId": "PH15755320775739800841117",
+      "itemInput": [
+        {
+          "code": "PLANOPTION4",
+          "description": "Choose hospital plan",
+          "type": "option",
+          "value": "A+#A|B+#B|C+#C|D+#D|E+#E|F+#F|G+#G|H+#H",
+          "inputValue": "C+#C",
+          "key": "PDPLAN",
+          "coi": 0,
+          "annualPremi": 0
+        },
+        {
+          "code": "TERMOPTION",
+          "description": "Masa Pertanggungan(Sampai Usia)",
+          "type": "option",
+          "value": "55|65|75",
+          "inputValue": "75",
+          "key": "PDTERM"
+        }
+      ],
+      "loadMap": {},
+      "oldCode": "H2TR",
+      "age": 35,
+      "isPPH": "D"
+    },
+    {
+      "code": "W1WR",
+      "name": "PRUwaiver 33",
+      "disabled": false,
+      "coverageType": "rider",
+      "type": "COVERAGE",
+      "lifeAssureCd": "01",
+      "tertanggungName": "vma baby",
+      "tertanggungAge": 35,
+      "tertanggungKey": 2,
+      "tertanggungCustomerId": "PH15755320775739800841117",
+      "itemInput": [
+        {
+          "code": "YESNOOPTION",
+          "description": "Choose Yes or No",
+          "type": "option",
+          "value": "Y|N",
+          "inputValue": "Y",
+          "key": "PDPLAN",
+          "coi": 0,
+          "annualPremi": 0
+        },
+        {
+          "code": "TERMOPTION",
+          "description": "Masa Pertanggungan(Sampai Usia)",
+          "type": "option",
+          "value": "55|65|70|75|80|85",
+          "inputValue": "75",
+          "key": "PDTERM"
+        }
+      ],
+      "loadMap": {},
+      "oldCode": "W1WR",
+      "age": 35,
+      "isPPH": "D"
+    },
+    {
+      "code": "U2V1",
+      "name": "VERSAlink maxima account",
+      "disabled": true,
+      "coverageType": "main",
+      "type": "COVERAGE",
+      "lifeAssureCd": "01",
+      "tertanggungName": "vma baby",
+      "tertanggungAge": 35,
+      "tertanggungKey": 2,
+      "tertanggungCustomerId": "PH15755320775739800841117",
+      "itemInput": [
+        {
+          "code": "INPUTSA",
+          "description": "Input Sum Assured",
+          "type": "input",
+          "value": "0",
+          "inputValue": "62600000000",
+          "key": "PDSA",
+          "coi": 0,
+          "annualPremi": 0
+        },
+        {
+          "code": "TERMOPTION",
+          "description": "Masa Pertanggungan(Sampai Usia)",
+          "type": "option",
+          "value": "",
+          "key": "PDTERM"
+        }
+      ],
+      "loadMap": {},
+      "oldCode": "U2V1",
+      "cumulativeCalculateUsingNewRate": true,
+      "cumulativeRemainingSA": "62600000000",
+      "age": 35,
+      "isPPH": "D"
+    }
+  ],
+  "ManfaatListCovCalc": [
+    {
+      "code": "U2C3",
+      "name": "PRUsaver",
+      "disabled": false,
+      "coverageType": "topup",
+      "type": "COVERAGE",
+      "lifeAssureCd": "01",
+      "tertanggungName": "vma baby",
+      "tertanggungAge": 35,
+      "tertanggungKey": 2,
+      "tertanggungCustomerId": "PH15755320775739800841117",
+      "itemInput": [
+        {
+          "code": "INPUTPREMI",
+          "description": "Input Premi",
+          "type": "input",
+          "value": "0",
+          "inputValue": 0,
+          "key": "PDPREMI",
+          "coi": 0,
+          "annualPremi": 0
+        },
+        {
+          "code": "TERMOPTION",
+          "description": "Masa Pertanggungan(Sampai Usia)",
+          "type": "option",
+          "value": "",
+          "key": "PDTERM"
+        }
+      ],
+      "loadMap": {},
+      "oldCode": "U2C3",
+      "age": 35,
+      "isPPH": "D"
+    },
+    {
+      "code": "T1JR",
+      "name": "PRUlink term",
+      "disabled": false,
+      "coverageType": "rider",
+      "type": "COVERAGE",
+      "lifeAssureCd": "01",
+      "tertanggungName": "vma baby",
+      "tertanggungAge": 35,
+      "tertanggungKey": 2,
+      "tertanggungCustomerId": "PH15755320775739800841117",
+      "itemInput": [
+        {
+          "code": "INPUTSA",
+          "description": "Input Sum Assured",
+          "type": "input",
+          "value": "0",
+          "inputValue": "500000000",
+          "key": "PDSA",
+          "coi": 0,
+          "annualPremi": 0
+        },
+        {
+          "code": "TERMOPTION",
+          "description": "Masa Pertanggungan(Sampai Usia)",
+          "type": "option",
+          "value": "55|65|70|75|80|85|99",
+          "inputValue": "85",
+          "key": "PDTERM"
+        }
+      ],
+      "loadMap": {},
+      "oldCode": "T1JR",
+      "age": 35,
+      "isPPH": "D"
+    },
+    {
+      "code": "H2BR",
+      "name": "PRUmed",
+      "disabled": false,
+      "coverageType": "rider",
+      "type": "COVERAGE",
+      "lifeAssureCd": "01",
+      "tertanggungName": "vma baby",
+      "tertanggungAge": 35,
+      "tertanggungKey": 2,
+      "tertanggungCustomerId": "PH15755320775739800841117",
+      "itemInput": [
+        {
+          "code": "INPUTUNIT",
+          "description": "Input Unit",
+          "type": "input",
+          "value": "0",
+          "inputValue": "5",
+          "key": "PDUNIT",
+          "coi": 0,
+          "annualPremi": 0
+        },
+        {
+          "code": "TERMOPTION",
+          "description": "Masa Pertanggungan(Sampai Usia)",
+          "type": "option",
+          "value": "55|65",
+          "inputValue": "65",
+          "key": "PDTERM"
+        }
+      ],
+      "loadMap": {},
+      "oldCode": "H2BR",
+      "age": 35,
+      "isPPH": "D"
+    },
+    {
+      "code": "H2TR",
+      "name": "PRUhospital & surgical cover",
+      "disabled": false,
+      "coverageType": "rider",
+      "type": "COVERAGE",
+      "lifeAssureCd": "01",
+      "tertanggungName": "vma baby",
+      "tertanggungAge": 35,
+      "tertanggungKey": 2,
+      "tertanggungCustomerId": "PH15755320775739800841117",
+      "itemInput": [
+        {
+          "code": "PLANOPTION4",
+          "description": "Choose hospital plan",
+          "type": "option",
+          "value": "A+#A|B+#B|C+#C|D+#D|E+#E|F+#F|G+#G|H+#H",
+          "inputValue": "C+#C",
+          "key": "PDPLAN",
+          "coi": 0,
+          "annualPremi": 0
+        },
+        {
+          "code": "TERMOPTION",
+          "description": "Masa Pertanggungan(Sampai Usia)",
+          "type": "option",
+          "value": "55|65|75",
+          "inputValue": "75",
+          "key": "PDTERM"
+        }
+      ],
+      "loadMap": {},
+      "oldCode": "H2TR",
+      "age": 35,
+      "isPPH": "D"
+    },
+    {
+      "code": "W1WR",
+      "name": "PRUwaiver 33",
+      "disabled": false,
+      "coverageType": "rider",
+      "type": "COVERAGE",
+      "lifeAssureCd": "01",
+      "tertanggungName": "vma baby",
+      "tertanggungAge": 35,
+      "tertanggungKey": 2,
+      "tertanggungCustomerId": "PH15755320775739800841117",
+      "itemInput": [
+        {
+          "code": "YESNOOPTION",
+          "description": "Choose Yes or No",
+          "type": "option",
+          "value": "Y|N",
+          "inputValue": "Y",
+          "key": "PDPLAN",
+          "coi": 0,
+          "annualPremi": 0
+        },
+        {
+          "code": "TERMOPTION",
+          "description": "Masa Pertanggungan(Sampai Usia)",
+          "type": "option",
+          "value": "55|65|70|75|80|85",
+          "inputValue": "75",
+          "key": "PDTERM"
+        }
+      ],
+      "loadMap": {},
+      "oldCode": "W1WR",
+      "age": 35,
+      "isPPH": "D"
+    },
+    {
+      "code": "U2V1",
+      "name": "VERSAlink maxima account",
+      "disabled": true,
+      "coverageType": "main",
+      "type": "COVERAGE",
+      "lifeAssureCd": "01",
+      "tertanggungName": "vma baby",
+      "tertanggungAge": 35,
+      "tertanggungKey": 2,
+      "tertanggungCustomerId": "PH15755320775739800841117",
+      "itemInput": [
+        {
+          "code": "INPUTSA",
+          "description": "Input Sum Assured",
+          "type": "input",
+          "value": "0",
+          "inputValue": "62600000000",
+          "key": "PDSA",
+          "coi": 0,
+          "annualPremi": 0
+        },
+        {
+          "code": "TERMOPTION",
+          "description": "Masa Pertanggungan(Sampai Usia)",
+          "type": "option",
+          "value": "",
+          "key": "PDTERM"
+        }
+      ],
+      "loadMap": {},
+      "oldCode": "U2V1",
+      "cumulativeCalculateUsingNewRate": true,
+      "cumulativeRemainingSA": "62600000000",
+      "age": 35,
+      "isPPH": "D"
+    }
+  ],
+  "TOTALPREMIUMWITHACCPREMIUMLBDBCLIENT": 864000000,
+  "TOTALPREMIUMWITHACCPREMIUMLBDBALT": 864000000,
+  "ALLOCATEDSAVERALT": 0,
+  "ALLOCATEDSAVERCLIENT": 0,
+  "TOTALSAWITHACCSALINKTERMALT": 500000000,
+  "TOTALSAWITHACCSALINKTERMCLIENT": 500000000
+}
